@@ -47,11 +47,7 @@ typedef double nuiSize;
 #include "nuiAttribute.h"
 #include "nuiAnimation.h"
 #include "nuiTranslator.h"
-#include "nuiAudioDb.h"
-#include "nuiAudioEngine.h"
-#include "nuiSoundManager.h"
-#include "nuiSound.h"
-#include "nuiVoice.h"
+
 #include "nuiRect.h"
 #include "nuiColor.h"
 

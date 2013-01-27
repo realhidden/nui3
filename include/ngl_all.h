@@ -116,7 +116,6 @@ Lookup precompiled headers in the VC doc to learn how to use them.
 #include "nglTime.h"
 #include "nglPath.h"
 
-#include "ngl3DSLoader.h"
 #include "nglBitmapTools.h"
 #include "nglCPUInfo.h"
 

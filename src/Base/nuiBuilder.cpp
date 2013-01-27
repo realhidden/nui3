@@ -75,12 +75,12 @@
 #include "nuiRectView.h"
 #include "nuiShapeView.h"
 #include "nuiZoomBar.h"
-#include "nuiRSSView.h"
+//#include "nuiRSSView.h"
 #include "nuiHugeImage.h"
-#include "nuiHyperLink.h"
+//#include "nuiHyperLink.h"
 #include "nuiLabelAttribute.h"
 #include "nuiLabelRenamer.h"
-#include "nuiHTMLView.h"
+//#include "nuiHTMLView.h"
 #include "nuiScrollingLabel.h"
 #include "nuiSpinnerLabel.h"
 
@@ -178,12 +178,12 @@ void nuiBuilder::Init()
   NUI_ADD_WIDGET_CREATOR(nuiRectView, "Widget");
   //NUI_ADD_WIDGET_CREATOR(nuiShapeView, "Widget");
   //NUI_ADD_WIDGET_CREATOR(nuiZoomBar, "Widget");
-  NUI_ADD_WIDGET_CREATOR(nuiRSSView, "Widget");
+  //NUI_ADD_WIDGET_CREATOR(nuiRSSView, "Widget");
   //NUI_ADD_WIDGET_CREATOR(nuiHugeImage, "Widget");
-  NUI_ADD_WIDGET_CREATOR(nuiHyperLink, "Widget");
+  //NUI_ADD_WIDGET_CREATOR(nuiHyperLink, "Widget");
   //NUI_ADD_WIDGET_CREATOR(nuiLabelAttribute, "Widget");
   //NUI_ADD_WIDGET_CREATOR(nuiLabelRenamer, "Widget");
-  NUI_ADD_WIDGET_CREATOR(nuiHTMLView, "Widget");
+  //NUI_ADD_WIDGET_CREATOR(nuiHTMLView, "Widget");
   NUI_ADD_WIDGET_CREATOR(nuiScrollingLabel, "Widget");
   NUI_ADD_WIDGET_CREATOR(nuiSpinnerLabel, "Widget");
 
