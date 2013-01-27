@@ -101,7 +101,6 @@
 		61D085140EAFAA5400B73835 /* nuiSurface.h in Headers */ = {isa = PBXBuildFile; fileRef = 61D085130EAFAA5400B73835 /* nuiSurface.h */; };
 		61D085150EAFAA5400B73835 /* nuiSurface.h in Headers */ = {isa = PBXBuildFile; fileRef = 61D085130EAFAA5400B73835 /* nuiSurface.h */; };
 		73F0841C12E9BA0700656E84 /* nuiShape.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CFE0C3CECAB00902DFE /* nuiShape.h */; };
-		73F0841D12E9BA0700656E84 /* nglZipFS.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CAB0C3CECAB00902DFE /* nglZipFS.h */; };
 		73F0841E12E9BA0700656E84 /* nuiArc.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CB10C3CECAB00902DFE /* nuiArc.h */; };
 		73F0842212E9BA0700656E84 /* nuiModalContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CDE0C3CECAB00902DFE /* nuiModalContainer.h */; };
 		73F0842312E9BA0700656E84 /* nglIMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C900C3CECAB00902DFE /* nglIMemory.h */; };
@@ -137,7 +136,6 @@
 		73F0844312E9BA0700656E84 /* nglCPUInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C800C3CECAB00902DFE /* nglCPUInfo.h */; };
 		73F0844412E9BA0700656E84 /* nuiFixed.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CC70C3CECAB00902DFE /* nuiFixed.h */; };
 		73F0844512E9BA0700656E84 /* nuiRect.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CF40C3CECAB00902DFE /* nuiRect.h */; };
-		73F0844612E9BA0700656E84 /* nglIZip.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C950C3CECAB00902DFE /* nglIZip.h */; };
 		73F0844812E9BA0700656E84 /* nuiCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CB80C3CECAB00902DFE /* nuiCommand.h */; };
 		73F0844912E9BA0700656E84 /* nglPath.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CA00C3CECAB00902DFE /* nglPath.h */; };
 		73F0844A12E9BA0700656E84 /* nglOFile.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C9D0C3CECAB00902DFE /* nglOFile.h */; };
@@ -238,16 +236,12 @@
 		73F084AF12E9BA0700656E84 /* nglMachOPrefix.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D2F0C3CECAB00902DFE /* nglMachOPrefix.h */; };
 		73F084B012E9BA0700656E84 /* nglImageTGACodec.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D910C3CECAB00902DFE /* nglImageTGACodec.h */; };
 		73F084B112E9BA0700656E84 /* nglImagePPMCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D8F0C3CECAB00902DFE /* nglImagePPMCodec.h */; };
-		73F084B212E9BA0700656E84 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DF00C3CECAB00902DFE /* ioapi.h */; };
 		73F084B312E9BA0700656E84 /* nglImagePNGCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D8D0C3CECAB00902DFE /* nglImagePNGCodec.h */; };
 		73F084B412E9BA0700656E84 /* main.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D240C3CECAB00902DFE /* main.h */; };
 		73F084B512E9BA0700656E84 /* nglApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C7B0C3CECAB00902DFE /* nglApplication.h */; };
-		73F084B612E9BA0700656E84 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DEE0C3CECAB00902DFE /* crypt.h */; };
 		73F084B712E9BA0700656E84 /* ngl_default_font.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D7A0C3CECAB00902DFE /* ngl_default_font.h */; };
 		73F084B812E9BA0700656E84 /* ngl_glext_table.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816E270C3CECAB00902DFE /* ngl_glext_table.h */; };
-		73F084B912E9BA0700656E84 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DF20C3CECAB00902DFE /* unzip.h */; };
 		73F084BA12E9BA0700656E84 /* AAPrimitives.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DA70C3CECAB00902DFE /* AAPrimitives.h */; };
-		73F084BB12E9BA0700656E84 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DF40C3CECAB00902DFE /* zip.h */; };
 		73F084BC12E9BA0700656E84 /* nuiFontInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D7F0C3CECAB00902DFE /* nuiFontInstance.h */; };
 		73F084BD12E9BA0700656E84 /* nglInputDeviceInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816E2C0C3CECAB00902DFE /* nglInputDeviceInstance.h */; };
 		73F084BE12E9BA0700656E84 /* ConvertUTF.h in Headers */ = {isa = PBXBuildFile; fileRef = E51B694E0C4E564D008EF7A3 /* ConvertUTF.h */; };
@@ -401,9 +395,6 @@
 		73F0858712E9BA0700656E84 /* ngl_config.cocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = E553C12312A55987009DDD22 /* ngl_config.cocoa.h */; };
 		73F0858812E9BA0700656E84 /* nuiNavigationButton.h in Headers */ = {isa = PBXBuildFile; fileRef = BC87DF0312A9599B00D836BF /* nuiNavigationButton.h */; };
 		73F0858912E9BA0700656E84 /* nuiNavigationViewDecoration.h in Headers */ = {isa = PBXBuildFile; fileRef = BC19B5D312AFC0FE002DA665 /* nuiNavigationViewDecoration.h */; };
-		73F0859612E9BA0700656E84 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = E5816DF10C3CECAB00902DFE /* unzip.c */; };
-		73F0859712E9BA0700656E84 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = E5816DF30C3CECAB00902DFE /* zip.c */; };
-		73F0859812E9BA0700656E84 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = E5816DEF0C3CECAB00902DFE /* ioapi.c */; };
 		73F0859912E9BA0700656E84 /* nuiGladeLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816D5D0C3CECAB00902DFE /* nuiGladeLoader.cpp */; };
 		73F0859A12E9BA0700656E84 /* nglString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DF60C3CECAB00902DFE /* nglString.cpp */; };
 		73F0859B12E9BA0700656E84 /* nglCPUInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816D350C3CECAB00902DFE /* nglCPUInfo.cpp */; };
@@ -414,7 +405,6 @@
 		73F085A112E9BA0700656E84 /* nuiContour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DAC0C3CECAB00902DFE /* nuiContour.cpp */; };
 		73F085A212E9BA0700656E84 /* nuiXML.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816D6B0C3CECAB00902DFE /* nuiXML.cpp */; };
 		73F085A312E9BA0700656E84 /* nuiComboBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DC90C3CECAB00902DFE /* nuiComboBox.cpp */; };
-		73F085A412E9BA0700656E84 /* nglZipFS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DEC0C3CECAB00902DFE /* nglZipFS.cpp */; };
 		73F085A512E9BA0700656E84 /* nuiPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DB70C3CECAB00902DFE /* nuiPath.cpp */; };
 		73F085A612E9BA0700656E84 /* nuiLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816E020C3CECAB00902DFE /* nuiLabel.cpp */; };
 		73F085A712E9BA0700656E84 /* nuiRadioButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DD60C3CECAB00902DFE /* nuiRadioButton.cpp */; };
@@ -475,7 +465,6 @@
 		73F085E312E9BA0700656E84 /* nuiSVGView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DDE0C3CECAB00902DFE /* nuiSVGView.cpp */; };
 		73F085E412E9BA0700656E84 /* nglPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816D700C3CECAB00902DFE /* nglPath.cpp */; };
 		73F085E512E9BA0700656E84 /* nuiEditLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816E000C3CECAB00902DFE /* nuiEditLine.cpp */; };
-		73F085E612E9BA0700656E84 /* nglIZip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DE70C3CECAB00902DFE /* nglIZip.cpp */; };
 		73F085E712E9BA0700656E84 /* nuiHoverDummy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DCD0C3CECAB00902DFE /* nuiHoverDummy.cpp */; };
 		73F085E812E9BA0700656E84 /* nglIFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DE30C3CECAB00902DFE /* nglIFile.cpp */; };
 		73F085E912E9BA0700656E84 /* nglWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816E300C3CECAB00902DFE /* nglWindow.cpp */; };
@@ -1808,7 +1797,6 @@
 		E51E54AE0FF1237F00FDF3BE /* nglImageGIFCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = E51E54AA0FF1237F00FDF3BE /* nglImageGIFCodec.h */; };
 		E51E54AF0FF1237F00FDF3BE /* nglImageGIFCodec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E51E54AB0FF1237F00FDF3BE /* nglImageGIFCodec.cpp */; };
 		E524133011CB860B0025CA71 /* nuiShape.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CFE0C3CECAB00902DFE /* nuiShape.h */; };
-		E524133111CB860B0025CA71 /* nglZipFS.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CAB0C3CECAB00902DFE /* nglZipFS.h */; };
 		E524133211CB860B0025CA71 /* nuiArc.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CB10C3CECAB00902DFE /* nuiArc.h */; };
 		E524133611CB860B0025CA71 /* nuiModalContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CDE0C3CECAB00902DFE /* nuiModalContainer.h */; };
 		E524133711CB860B0025CA71 /* nglIMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C900C3CECAB00902DFE /* nglIMemory.h */; };
@@ -1844,7 +1832,6 @@
 		E524135711CB860B0025CA71 /* nglCPUInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C800C3CECAB00902DFE /* nglCPUInfo.h */; };
 		E524135811CB860B0025CA71 /* nuiFixed.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CC70C3CECAB00902DFE /* nuiFixed.h */; };
 		E524135911CB860B0025CA71 /* nuiRect.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CF40C3CECAB00902DFE /* nuiRect.h */; };
-		E524135A11CB860B0025CA71 /* nglIZip.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C950C3CECAB00902DFE /* nglIZip.h */; };
 		E524135C11CB860B0025CA71 /* nuiCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CB80C3CECAB00902DFE /* nuiCommand.h */; };
 		E524135D11CB860B0025CA71 /* nglPath.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CA00C3CECAB00902DFE /* nglPath.h */; };
 		E524135E11CB860B0025CA71 /* nglOFile.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C9D0C3CECAB00902DFE /* nglOFile.h */; };
@@ -1945,16 +1932,12 @@
 		E52413C411CB860B0025CA71 /* nglMachOPrefix.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D2F0C3CECAB00902DFE /* nglMachOPrefix.h */; };
 		E52413C811CB860B0025CA71 /* nglImageTGACodec.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D910C3CECAB00902DFE /* nglImageTGACodec.h */; };
 		E52413C911CB860B0025CA71 /* nglImagePPMCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D8F0C3CECAB00902DFE /* nglImagePPMCodec.h */; };
-		E52413CA11CB860B0025CA71 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DF00C3CECAB00902DFE /* ioapi.h */; };
 		E52413CB11CB860B0025CA71 /* nglImagePNGCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D8D0C3CECAB00902DFE /* nglImagePNGCodec.h */; };
 		E52413CC11CB860B0025CA71 /* main.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D240C3CECAB00902DFE /* main.h */; };
 		E52413CD11CB860B0025CA71 /* nglApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C7B0C3CECAB00902DFE /* nglApplication.h */; };
-		E52413CE11CB860B0025CA71 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DEE0C3CECAB00902DFE /* crypt.h */; };
 		E52413CF11CB860B0025CA71 /* ngl_default_font.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D7A0C3CECAB00902DFE /* ngl_default_font.h */; };
 		E52413D011CB860B0025CA71 /* ngl_glext_table.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816E270C3CECAB00902DFE /* ngl_glext_table.h */; };
-		E52413D211CB860B0025CA71 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DF20C3CECAB00902DFE /* unzip.h */; };
 		E52413D311CB860B0025CA71 /* AAPrimitives.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DA70C3CECAB00902DFE /* AAPrimitives.h */; };
-		E52413D411CB860B0025CA71 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DF40C3CECAB00902DFE /* zip.h */; };
 		E52413D511CB860B0025CA71 /* nuiFontInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D7F0C3CECAB00902DFE /* nuiFontInstance.h */; };
 		E52413D611CB860B0025CA71 /* nglInputDeviceInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816E2C0C3CECAB00902DFE /* nglInputDeviceInstance.h */; };
 		E52413D711CB860B0025CA71 /* ConvertUTF.h in Headers */ = {isa = PBXBuildFile; fileRef = E51B694E0C4E564D008EF7A3 /* ConvertUTF.h */; };
@@ -2081,9 +2064,6 @@
 		E524151F11CB860B0025CA71 /* nuiScriptEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = E52CBD201174C07E0031DFA8 /* nuiScriptEngine.h */; };
 		E524157F11CB860B0025CA71 /* nglStringConv.h in Headers */ = {isa = PBXBuildFile; fileRef = E50367DB11A0ADF5001F4389 /* nglStringConv.h */; };
 		E524158011CB860B0025CA71 /* nuiRegExp.h in Headers */ = {isa = PBXBuildFile; fileRef = E50367DC11A0ADF5001F4389 /* nuiRegExp.h */; };
-		E524161E11CB860B0025CA71 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = E5816DF10C3CECAB00902DFE /* unzip.c */; };
-		E524161F11CB860B0025CA71 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = E5816DF30C3CECAB00902DFE /* zip.c */; };
-		E524162011CB860B0025CA71 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = E5816DEF0C3CECAB00902DFE /* ioapi.c */; };
 		E524162111CB860B0025CA71 /* nuiGladeLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816D5D0C3CECAB00902DFE /* nuiGladeLoader.cpp */; };
 		E524162211CB860B0025CA71 /* nglString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DF60C3CECAB00902DFE /* nglString.cpp */; };
 		E524162311CB860B0025CA71 /* nglCPUInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816D350C3CECAB00902DFE /* nglCPUInfo.cpp */; };
@@ -2094,7 +2074,6 @@
 		E524162911CB860B0025CA71 /* nuiContour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DAC0C3CECAB00902DFE /* nuiContour.cpp */; };
 		E524162A11CB860B0025CA71 /* nuiXML.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816D6B0C3CECAB00902DFE /* nuiXML.cpp */; };
 		E524162B11CB860B0025CA71 /* nuiComboBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DC90C3CECAB00902DFE /* nuiComboBox.cpp */; };
-		E524162C11CB860B0025CA71 /* nglZipFS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DEC0C3CECAB00902DFE /* nglZipFS.cpp */; };
 		E524162D11CB860B0025CA71 /* nuiPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DB70C3CECAB00902DFE /* nuiPath.cpp */; };
 		E524162E11CB860B0025CA71 /* nuiLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816E020C3CECAB00902DFE /* nuiLabel.cpp */; };
 		E524162F11CB860B0025CA71 /* nuiRadioButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DD60C3CECAB00902DFE /* nuiRadioButton.cpp */; };
@@ -2155,7 +2134,6 @@
 		E524166D11CB860B0025CA71 /* nuiSVGView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DDE0C3CECAB00902DFE /* nuiSVGView.cpp */; };
 		E524166E11CB860B0025CA71 /* nglPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816D700C3CECAB00902DFE /* nglPath.cpp */; };
 		E524166F11CB860B0025CA71 /* nuiEditLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816E000C3CECAB00902DFE /* nuiEditLine.cpp */; };
-		E524167011CB860B0025CA71 /* nglIZip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DE70C3CECAB00902DFE /* nglIZip.cpp */; };
 		E524167111CB860B0025CA71 /* nuiHoverDummy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DCD0C3CECAB00902DFE /* nuiHoverDummy.cpp */; };
 		E524167211CB860B0025CA71 /* nglIFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DE30C3CECAB00902DFE /* nglIFile.cpp */; };
 		E524167411CB860B0025CA71 /* nglWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816E300C3CECAB00902DFE /* nglWindow.cpp */; };
@@ -2333,7 +2311,6 @@
 		E52419DF11CB9D540025CA71 /* nglPath_Cocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = E52419DD11CB9D540025CA71 /* nglPath_Cocoa.h */; };
 		E52419E011CB9D540025CA71 /* nglPath_Cocoa.mm in Sources */ = {isa = PBXBuildFile; fileRef = E52419DE11CB9D540025CA71 /* nglPath_Cocoa.mm */; };
 		E5241C0C11CBCE9E0025CA71 /* nuiShape.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CFE0C3CECAB00902DFE /* nuiShape.h */; };
-		E5241C0D11CBCE9E0025CA71 /* nglZipFS.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CAB0C3CECAB00902DFE /* nglZipFS.h */; };
 		E5241C0E11CBCE9E0025CA71 /* nuiArc.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CB10C3CECAB00902DFE /* nuiArc.h */; };
 		E5241C1211CBCE9E0025CA71 /* nuiModalContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CDE0C3CECAB00902DFE /* nuiModalContainer.h */; };
 		E5241C1311CBCE9E0025CA71 /* nglIMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C900C3CECAB00902DFE /* nglIMemory.h */; };
@@ -2369,7 +2346,6 @@
 		E5241C3311CBCE9E0025CA71 /* nglCPUInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C800C3CECAB00902DFE /* nglCPUInfo.h */; };
 		E5241C3411CBCE9E0025CA71 /* nuiFixed.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CC70C3CECAB00902DFE /* nuiFixed.h */; };
 		E5241C3511CBCE9E0025CA71 /* nuiRect.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CF40C3CECAB00902DFE /* nuiRect.h */; };
-		E5241C3611CBCE9E0025CA71 /* nglIZip.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C950C3CECAB00902DFE /* nglIZip.h */; };
 		E5241C3811CBCE9E0025CA71 /* nuiCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CB80C3CECAB00902DFE /* nuiCommand.h */; };
 		E5241C3911CBCE9E0025CA71 /* nglPath.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CA00C3CECAB00902DFE /* nglPath.h */; };
 		E5241C3A11CBCE9E0025CA71 /* nglOFile.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C9D0C3CECAB00902DFE /* nglOFile.h */; };
@@ -2470,16 +2446,12 @@
 		E5241C9F11CBCE9E0025CA71 /* nglMachOPrefix.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D2F0C3CECAB00902DFE /* nglMachOPrefix.h */; };
 		E5241CA011CBCE9E0025CA71 /* nglImageTGACodec.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D910C3CECAB00902DFE /* nglImageTGACodec.h */; };
 		E5241CA111CBCE9E0025CA71 /* nglImagePPMCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D8F0C3CECAB00902DFE /* nglImagePPMCodec.h */; };
-		E5241CA211CBCE9E0025CA71 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DF00C3CECAB00902DFE /* ioapi.h */; };
 		E5241CA311CBCE9E0025CA71 /* nglImagePNGCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D8D0C3CECAB00902DFE /* nglImagePNGCodec.h */; };
 		E5241CA411CBCE9E0025CA71 /* main.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D240C3CECAB00902DFE /* main.h */; };
 		E5241CA511CBCE9E0025CA71 /* nglApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C7B0C3CECAB00902DFE /* nglApplication.h */; };
-		E5241CA611CBCE9E0025CA71 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DEE0C3CECAB00902DFE /* crypt.h */; };
 		E5241CA711CBCE9E0025CA71 /* ngl_default_font.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D7A0C3CECAB00902DFE /* ngl_default_font.h */; };
 		E5241CA811CBCE9E0025CA71 /* ngl_glext_table.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816E270C3CECAB00902DFE /* ngl_glext_table.h */; };
-		E5241CA911CBCE9E0025CA71 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DF20C3CECAB00902DFE /* unzip.h */; };
 		E5241CAA11CBCE9E0025CA71 /* AAPrimitives.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DA70C3CECAB00902DFE /* AAPrimitives.h */; };
-		E5241CAB11CBCE9E0025CA71 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DF40C3CECAB00902DFE /* zip.h */; };
 		E5241CAC11CBCE9E0025CA71 /* nuiFontInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D7F0C3CECAB00902DFE /* nuiFontInstance.h */; };
 		E5241CAD11CBCE9E0025CA71 /* nglInputDeviceInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816E2C0C3CECAB00902DFE /* nglInputDeviceInstance.h */; };
 		E5241CAE11CBCE9E0025CA71 /* ConvertUTF.h in Headers */ = {isa = PBXBuildFile; fileRef = E51B694E0C4E564D008EF7A3 /* ConvertUTF.h */; };
@@ -2612,9 +2584,6 @@
 		E5241E9011CBCE9E0025CA71 /* nglWindow_UIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E524181311CB87E80025CA71 /* nglWindow_UIKit.h */; };
 		E5241E9E11CBCE9E0025CA71 /* nglImageCGCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = E52419DA11CB9D3C0025CA71 /* nglImageCGCodec.h */; };
 		E5241E9F11CBCE9E0025CA71 /* nglPath_Cocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = E52419DD11CB9D540025CA71 /* nglPath_Cocoa.h */; };
-		E5241F0711CBCE9E0025CA71 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = E5816DF10C3CECAB00902DFE /* unzip.c */; };
-		E5241F0811CBCE9E0025CA71 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = E5816DF30C3CECAB00902DFE /* zip.c */; };
-		E5241F0911CBCE9E0025CA71 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = E5816DEF0C3CECAB00902DFE /* ioapi.c */; };
 		E5241F0A11CBCE9E0025CA71 /* nuiGladeLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816D5D0C3CECAB00902DFE /* nuiGladeLoader.cpp */; };
 		E5241F0B11CBCE9E0025CA71 /* nglString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DF60C3CECAB00902DFE /* nglString.cpp */; };
 		E5241F0C11CBCE9E0025CA71 /* nglCPUInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816D350C3CECAB00902DFE /* nglCPUInfo.cpp */; };
@@ -2625,7 +2594,6 @@
 		E5241F1211CBCE9E0025CA71 /* nuiContour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DAC0C3CECAB00902DFE /* nuiContour.cpp */; };
 		E5241F1311CBCE9E0025CA71 /* nuiXML.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816D6B0C3CECAB00902DFE /* nuiXML.cpp */; };
 		E5241F1411CBCE9E0025CA71 /* nuiComboBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DC90C3CECAB00902DFE /* nuiComboBox.cpp */; };
-		E5241F1511CBCE9E0025CA71 /* nglZipFS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DEC0C3CECAB00902DFE /* nglZipFS.cpp */; };
 		E5241F1611CBCE9E0025CA71 /* nuiPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DB70C3CECAB00902DFE /* nuiPath.cpp */; };
 		E5241F1711CBCE9E0025CA71 /* nuiLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816E020C3CECAB00902DFE /* nuiLabel.cpp */; };
 		E5241F1811CBCE9E0025CA71 /* nuiRadioButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DD60C3CECAB00902DFE /* nuiRadioButton.cpp */; };
@@ -2686,7 +2654,6 @@
 		E5241F5411CBCE9E0025CA71 /* nuiSVGView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DDE0C3CECAB00902DFE /* nuiSVGView.cpp */; };
 		E5241F5511CBCE9E0025CA71 /* nglPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816D700C3CECAB00902DFE /* nglPath.cpp */; };
 		E5241F5611CBCE9E0025CA71 /* nuiEditLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816E000C3CECAB00902DFE /* nuiEditLine.cpp */; };
-		E5241F5711CBCE9E0025CA71 /* nglIZip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DE70C3CECAB00902DFE /* nglIZip.cpp */; };
 		E5241F5811CBCE9E0025CA71 /* nuiHoverDummy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DCD0C3CECAB00902DFE /* nuiHoverDummy.cpp */; };
 		E5241F5911CBCE9E0025CA71 /* nglIFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DE30C3CECAB00902DFE /* nglIFile.cpp */; };
 		E5241F5A11CBCE9E0025CA71 /* nglWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816E300C3CECAB00902DFE /* nglWindow.cpp */; };
@@ -2968,7 +2935,6 @@
 		E53B3E841407CA7E005AD549 /* nuiArchive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E53B3E7D1407CA7E005AD549 /* nuiArchive.cpp */; };
 		E5429EF70C3F08DC00225219 /* nglPath_Unix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5429EF60C3F08DC00225219 /* nglPath_Unix.cpp */; };
 		E5429F9D0C3F0A5900225219 /* nuiShape.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CFE0C3CECAB00902DFE /* nuiShape.h */; };
-		E5429F9E0C3F0A5900225219 /* nglZipFS.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CAB0C3CECAB00902DFE /* nglZipFS.h */; };
 		E5429F9F0C3F0A5900225219 /* nuiArc.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CB10C3CECAB00902DFE /* nuiArc.h */; };
 		E5429FA30C3F0A5900225219 /* nuiModalContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CDE0C3CECAB00902DFE /* nuiModalContainer.h */; };
 		E5429FA40C3F0A5900225219 /* nglIMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C900C3CECAB00902DFE /* nglIMemory.h */; };
@@ -3004,7 +2970,6 @@
 		E5429FC90C3F0A5900225219 /* nglCPUInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C800C3CECAB00902DFE /* nglCPUInfo.h */; };
 		E5429FCA0C3F0A5900225219 /* nuiFixed.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CC70C3CECAB00902DFE /* nuiFixed.h */; };
 		E5429FCB0C3F0A5900225219 /* nuiRect.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CF40C3CECAB00902DFE /* nuiRect.h */; };
-		E5429FCC0C3F0A5900225219 /* nglIZip.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C950C3CECAB00902DFE /* nglIZip.h */; };
 		E5429FCE0C3F0A5900225219 /* nuiCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CB80C3CECAB00902DFE /* nuiCommand.h */; };
 		E5429FD00C3F0A5900225219 /* nglPath.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CA00C3CECAB00902DFE /* nglPath.h */; };
 		E5429FD20C3F0A5900225219 /* nglOFile.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C9D0C3CECAB00902DFE /* nglOFile.h */; };
@@ -3108,21 +3073,14 @@
 		E542A04B0C3F0A5900225219 /* nglImageJPEGCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D8B0C3CECAB00902DFE /* nglImageJPEGCodec.h */; };
 		E542A04C0C3F0A5900225219 /* nglImageTGACodec.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D910C3CECAB00902DFE /* nglImageTGACodec.h */; };
 		E542A04D0C3F0A5900225219 /* nglImagePPMCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D8F0C3CECAB00902DFE /* nglImagePPMCodec.h */; };
-		E542A04E0C3F0A5900225219 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DF00C3CECAB00902DFE /* ioapi.h */; };
 		E542A04F0C3F0A5900225219 /* nglImagePNGCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D8D0C3CECAB00902DFE /* nglImagePNGCodec.h */; };
 		E542A0500C3F0A5900225219 /* main.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D240C3CECAB00902DFE /* main.h */; };
 		E542A0510C3F0A5900225219 /* nglApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C7B0C3CECAB00902DFE /* nglApplication.h */; };
-		E542A0530C3F0A5900225219 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DEE0C3CECAB00902DFE /* crypt.h */; };
 		E542A0540C3F0A5900225219 /* ngl_default_font.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D7A0C3CECAB00902DFE /* ngl_default_font.h */; };
 		E542A0550C3F0A5900225219 /* ngl_glext_table.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816E270C3CECAB00902DFE /* ngl_glext_table.h */; };
-		E542A0580C3F0A5900225219 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DF20C3CECAB00902DFE /* unzip.h */; };
 		E542A0590C3F0A5900225219 /* AAPrimitives.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DA70C3CECAB00902DFE /* AAPrimitives.h */; };
-		E542A05A0C3F0A5900225219 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DF40C3CECAB00902DFE /* zip.h */; };
 		E542A05B0C3F0A5900225219 /* nuiFontInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D7F0C3CECAB00902DFE /* nuiFontInstance.h */; };
 		E542A05C0C3F0A5900225219 /* nglInputDeviceInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816E2C0C3CECAB00902DFE /* nglInputDeviceInstance.h */; };
-		E542A0F00C3F0A5900225219 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = E5816DF10C3CECAB00902DFE /* unzip.c */; };
-		E542A0F10C3F0A5900225219 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = E5816DF30C3CECAB00902DFE /* zip.c */; };
-		E542A0F20C3F0A5900225219 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = E5816DEF0C3CECAB00902DFE /* ioapi.c */; };
 		E542A0F30C3F0A5900225219 /* nuiGladeLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816D5D0C3CECAB00902DFE /* nuiGladeLoader.cpp */; };
 		E542A0F40C3F0A5900225219 /* nglString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DF60C3CECAB00902DFE /* nglString.cpp */; };
 		E542A0F70C3F0A5900225219 /* nglWindow_Carbon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816E220C3CECAB00902DFE /* nglWindow_Carbon.cpp */; };
@@ -3135,7 +3093,6 @@
 		E542A1000C3F0A5900225219 /* nuiContour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DAC0C3CECAB00902DFE /* nuiContour.cpp */; };
 		E542A1010C3F0A5900225219 /* nuiXML.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816D6B0C3CECAB00902DFE /* nuiXML.cpp */; };
 		E542A1020C3F0A5900225219 /* nuiComboBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DC90C3CECAB00902DFE /* nuiComboBox.cpp */; };
-		E542A1030C3F0A5900225219 /* nglZipFS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DEC0C3CECAB00902DFE /* nglZipFS.cpp */; };
 		E542A1040C3F0A5900225219 /* nuiPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DB70C3CECAB00902DFE /* nuiPath.cpp */; };
 		E542A1050C3F0A5900225219 /* nuiLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816E020C3CECAB00902DFE /* nuiLabel.cpp */; };
 		E542A1060C3F0A5900225219 /* nuiRadioButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DD60C3CECAB00902DFE /* nuiRadioButton.cpp */; };
@@ -3203,7 +3160,6 @@
 		E542A1520C3F0A5900225219 /* nuiSVGView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DDE0C3CECAB00902DFE /* nuiSVGView.cpp */; };
 		E542A1530C3F0A5900225219 /* nglPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816D700C3CECAB00902DFE /* nglPath.cpp */; };
 		E542A1540C3F0A5900225219 /* nuiEditLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816E000C3CECAB00902DFE /* nuiEditLine.cpp */; };
-		E542A1550C3F0A5900225219 /* nglIZip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DE70C3CECAB00902DFE /* nglIZip.cpp */; };
 		E542A1560C3F0A5900225219 /* nuiHoverDummy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DCD0C3CECAB00902DFE /* nuiHoverDummy.cpp */; };
 		E542A1570C3F0A5900225219 /* nglIFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DE30C3CECAB00902DFE /* nglIFile.cpp */; };
 		E542A1590C3F0A5900225219 /* nglWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816E300C3CECAB00902DFE /* nglWindow.cpp */; };
@@ -3412,7 +3368,6 @@
 		E57ECB621110A6BA00AE0A3A /* nuiTextureInspector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E57ECB611110A6BA00AE0A3A /* nuiTextureInspector.cpp */; };
 		E57ECB661110A6E300AE0A3A /* nuiTextureInspector.h in Headers */ = {isa = PBXBuildFile; fileRef = E57ECB651110A6E300AE0A3A /* nuiTextureInspector.h */; };
 		E58176540C3D110A00902DFE /* nuiShape.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CFE0C3CECAB00902DFE /* nuiShape.h */; };
-		E58176550C3D110A00902DFE /* nglZipFS.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CAB0C3CECAB00902DFE /* nglZipFS.h */; };
 		E58176560C3D110A00902DFE /* nuiArc.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CB10C3CECAB00902DFE /* nuiArc.h */; };
 		E581765A0C3D110A00902DFE /* nuiModalContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CDE0C3CECAB00902DFE /* nuiModalContainer.h */; };
 		E581765B0C3D110A00902DFE /* nglIMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C900C3CECAB00902DFE /* nglIMemory.h */; };
@@ -3448,7 +3403,6 @@
 		E58176800C3D110A00902DFE /* nglCPUInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C800C3CECAB00902DFE /* nglCPUInfo.h */; };
 		E58176810C3D110A00902DFE /* nuiFixed.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CC70C3CECAB00902DFE /* nuiFixed.h */; };
 		E58176820C3D110A00902DFE /* nuiRect.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CF40C3CECAB00902DFE /* nuiRect.h */; };
-		E58176830C3D110A00902DFE /* nglIZip.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C950C3CECAB00902DFE /* nglIZip.h */; };
 		E58176850C3D110A00902DFE /* nuiCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CB80C3CECAB00902DFE /* nuiCommand.h */; };
 		E58176870C3D110A00902DFE /* nglPath.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CA00C3CECAB00902DFE /* nglPath.h */; };
 		E58176890C3D110A00902DFE /* nglOFile.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C9D0C3CECAB00902DFE /* nglOFile.h */; };
@@ -3546,9 +3500,6 @@
 		E58176F90C3D110B00902DFE /* nglMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C9A0C3CECAB00902DFE /* nglMatrix.h */; };
 		E58176FA0C3D110B00902DFE /* ngl.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C770C3CECAB00902DFE /* ngl.h */; };
 		E58176FB0C3D110B00902DFE /* nuiButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CB40C3CECAB00902DFE /* nuiButton.h */; };
-		E58177000C3D112C00902DFE /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = E5816DF10C3CECAB00902DFE /* unzip.c */; };
-		E58177010C3D112C00902DFE /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = E5816DF30C3CECAB00902DFE /* zip.c */; };
-		E58177020C3D112C00902DFE /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = E5816DEF0C3CECAB00902DFE /* ioapi.c */; };
 		E58177030C3D112C00902DFE /* nuiGladeLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816D5D0C3CECAB00902DFE /* nuiGladeLoader.cpp */; };
 		E58177040C3D112C00902DFE /* nglString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DF60C3CECAB00902DFE /* nglString.cpp */; };
 		E58177080C3D112C00902DFE /* nglCPUInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816D350C3CECAB00902DFE /* nglCPUInfo.cpp */; };
@@ -3559,7 +3510,6 @@
 		E58177100C3D112C00902DFE /* nuiContour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DAC0C3CECAB00902DFE /* nuiContour.cpp */; };
 		E58177110C3D112C00902DFE /* nuiXML.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816D6B0C3CECAB00902DFE /* nuiXML.cpp */; };
 		E58177120C3D112C00902DFE /* nuiComboBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DC90C3CECAB00902DFE /* nuiComboBox.cpp */; };
-		E58177130C3D112C00902DFE /* nglZipFS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DEC0C3CECAB00902DFE /* nglZipFS.cpp */; };
 		E58177140C3D112C00902DFE /* nuiPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DB70C3CECAB00902DFE /* nuiPath.cpp */; };
 		E58177150C3D112C00902DFE /* nuiLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816E020C3CECAB00902DFE /* nuiLabel.cpp */; };
 		E58177160C3D112C00902DFE /* nuiRadioButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DD60C3CECAB00902DFE /* nuiRadioButton.cpp */; };
@@ -3620,7 +3570,6 @@
 		E58177650C3D112C00902DFE /* nuiSVGView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DDE0C3CECAB00902DFE /* nuiSVGView.cpp */; };
 		E58177660C3D112C00902DFE /* nglPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816D700C3CECAB00902DFE /* nglPath.cpp */; };
 		E58177670C3D112C00902DFE /* nuiEditLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816E000C3CECAB00902DFE /* nuiEditLine.cpp */; };
-		E58177680C3D112C00902DFE /* nglIZip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DE70C3CECAB00902DFE /* nglIZip.cpp */; };
 		E58177690C3D112C00902DFE /* nuiHoverDummy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DCD0C3CECAB00902DFE /* nuiHoverDummy.cpp */; };
 		E581776A0C3D112C00902DFE /* nglIFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DE30C3CECAB00902DFE /* nglIFile.cpp */; };
 		E581776C0C3D112C00902DFE /* nglWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816E300C3CECAB00902DFE /* nglWindow.cpp */; };
@@ -3679,16 +3628,12 @@
 		E58177C20C3D112C00902DFE /* nglImageJPEGCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D8B0C3CECAB00902DFE /* nglImageJPEGCodec.h */; };
 		E58177C30C3D112C00902DFE /* nglImageTGACodec.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D910C3CECAB00902DFE /* nglImageTGACodec.h */; };
 		E58177C40C3D112C00902DFE /* nglImagePPMCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D8F0C3CECAB00902DFE /* nglImagePPMCodec.h */; };
-		E58177C50C3D112C00902DFE /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DF00C3CECAB00902DFE /* ioapi.h */; };
 		E58177C60C3D112C00902DFE /* nglImagePNGCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D8D0C3CECAB00902DFE /* nglImagePNGCodec.h */; };
 		E58177C70C3D112C00902DFE /* main.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D240C3CECAB00902DFE /* main.h */; };
 		E58177C80C3D112C00902DFE /* nglApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C7B0C3CECAB00902DFE /* nglApplication.h */; };
-		E58177CA0C3D112C00902DFE /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DEE0C3CECAB00902DFE /* crypt.h */; };
 		E58177CB0C3D112C00902DFE /* ngl_default_font.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D7A0C3CECAB00902DFE /* ngl_default_font.h */; };
 		E58177CC0C3D112C00902DFE /* ngl_glext_table.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816E270C3CECAB00902DFE /* ngl_glext_table.h */; };
-		E58177CF0C3D112C00902DFE /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DF20C3CECAB00902DFE /* unzip.h */; };
 		E58177D00C3D112C00902DFE /* AAPrimitives.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DA70C3CECAB00902DFE /* AAPrimitives.h */; };
-		E58177D10C3D112C00902DFE /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DF40C3CECAB00902DFE /* zip.h */; };
 		E58177D20C3D112C00902DFE /* nuiFontInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D7F0C3CECAB00902DFE /* nuiFontInstance.h */; };
 		E58177D30C3D112C00902DFE /* nglInputDeviceInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816E2C0C3CECAB00902DFE /* nglInputDeviceInstance.h */; };
 		E58411C91077451500E0CB45 /* nuiBindings.h in Headers */ = {isa = PBXBuildFile; fileRef = E58411C71077451500E0CB45 /* nuiBindings.h */; };
@@ -3770,7 +3715,6 @@
 		E5A2CBD80D3AF30900FC2180 /* nuiWidgetMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = E5A2CBD70D3AF30900FC2180 /* nuiWidgetMatcher.h */; };
 		E5A2CBD90D3AF30900FC2180 /* nuiWidgetMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = E5A2CBD70D3AF30900FC2180 /* nuiWidgetMatcher.h */; };
 		E5A8CD1111E33A54004E14CE /* nuiShape.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CFE0C3CECAB00902DFE /* nuiShape.h */; };
-		E5A8CD1211E33A54004E14CE /* nglZipFS.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CAB0C3CECAB00902DFE /* nglZipFS.h */; };
 		E5A8CD1311E33A54004E14CE /* nuiArc.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CB10C3CECAB00902DFE /* nuiArc.h */; };
 		E5A8CD1711E33A54004E14CE /* nuiModalContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CDE0C3CECAB00902DFE /* nuiModalContainer.h */; };
 		E5A8CD1811E33A54004E14CE /* nglIMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C900C3CECAB00902DFE /* nglIMemory.h */; };
@@ -3806,7 +3750,6 @@
 		E5A8CD3811E33A54004E14CE /* nglCPUInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C800C3CECAB00902DFE /* nglCPUInfo.h */; };
 		E5A8CD3911E33A54004E14CE /* nuiFixed.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CC70C3CECAB00902DFE /* nuiFixed.h */; };
 		E5A8CD3A11E33A54004E14CE /* nuiRect.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CF40C3CECAB00902DFE /* nuiRect.h */; };
-		E5A8CD3B11E33A54004E14CE /* nglIZip.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C950C3CECAB00902DFE /* nglIZip.h */; };
 		E5A8CD3D11E33A54004E14CE /* nuiCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CB80C3CECAB00902DFE /* nuiCommand.h */; };
 		E5A8CD3E11E33A54004E14CE /* nglPath.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CA00C3CECAB00902DFE /* nglPath.h */; };
 		E5A8CD3F11E33A54004E14CE /* nglOFile.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C9D0C3CECAB00902DFE /* nglOFile.h */; };
@@ -3908,16 +3851,12 @@
 		E5A8CDA811E33A54004E14CE /* nglImageJPEGCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D8B0C3CECAB00902DFE /* nglImageJPEGCodec.h */; };
 		E5A8CDA911E33A54004E14CE /* nglImageTGACodec.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D910C3CECAB00902DFE /* nglImageTGACodec.h */; };
 		E5A8CDAA11E33A54004E14CE /* nglImagePPMCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D8F0C3CECAB00902DFE /* nglImagePPMCodec.h */; };
-		E5A8CDAB11E33A54004E14CE /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DF00C3CECAB00902DFE /* ioapi.h */; };
 		E5A8CDAC11E33A54004E14CE /* nglImagePNGCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D8D0C3CECAB00902DFE /* nglImagePNGCodec.h */; };
 		E5A8CDAD11E33A54004E14CE /* main.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D240C3CECAB00902DFE /* main.h */; };
 		E5A8CDAE11E33A54004E14CE /* nglApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C7B0C3CECAB00902DFE /* nglApplication.h */; };
-		E5A8CDAF11E33A54004E14CE /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DEE0C3CECAB00902DFE /* crypt.h */; };
 		E5A8CDB011E33A54004E14CE /* ngl_default_font.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D7A0C3CECAB00902DFE /* ngl_default_font.h */; };
 		E5A8CDB111E33A54004E14CE /* ngl_glext_table.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816E270C3CECAB00902DFE /* ngl_glext_table.h */; };
-		E5A8CDB311E33A54004E14CE /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DF20C3CECAB00902DFE /* unzip.h */; };
 		E5A8CDB411E33A54004E14CE /* AAPrimitives.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DA70C3CECAB00902DFE /* AAPrimitives.h */; };
-		E5A8CDB511E33A54004E14CE /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DF40C3CECAB00902DFE /* zip.h */; };
 		E5A8CDB611E33A54004E14CE /* nuiFontInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D7F0C3CECAB00902DFE /* nuiFontInstance.h */; };
 		E5A8CDB711E33A54004E14CE /* nglInputDeviceInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816E2C0C3CECAB00902DFE /* nglInputDeviceInstance.h */; };
 		E5A8CDB811E33A54004E14CE /* ConvertUTF.h in Headers */ = {isa = PBXBuildFile; fileRef = E51B694E0C4E564D008EF7A3 /* ConvertUTF.h */; };
@@ -4052,9 +3991,6 @@
 		E5A8CF5A11E33A54004E14CE /* nuiSpiderMonkey.h in Headers */ = {isa = PBXBuildFile; fileRef = E52CC07211751B620031DFA8 /* nuiSpiderMonkey.h */; };
 		E5A8CF6011E33A54004E14CE /* nglStringConv.h in Headers */ = {isa = PBXBuildFile; fileRef = E50367DB11A0ADF5001F4389 /* nglStringConv.h */; };
 		E5A8CF6111E33A54004E14CE /* nuiRegExp.h in Headers */ = {isa = PBXBuildFile; fileRef = E50367DC11A0ADF5001F4389 /* nuiRegExp.h */; };
-		E5A8CFFF11E33A54004E14CE /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = E5816DF10C3CECAB00902DFE /* unzip.c */; };
-		E5A8D00011E33A54004E14CE /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = E5816DF30C3CECAB00902DFE /* zip.c */; };
-		E5A8D00111E33A54004E14CE /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = E5816DEF0C3CECAB00902DFE /* ioapi.c */; };
 		E5A8D00211E33A54004E14CE /* nuiGladeLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816D5D0C3CECAB00902DFE /* nuiGladeLoader.cpp */; };
 		E5A8D00311E33A54004E14CE /* nglString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DF60C3CECAB00902DFE /* nglString.cpp */; };
 		E5A8D00411E33A54004E14CE /* nglCPUInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816D350C3CECAB00902DFE /* nglCPUInfo.cpp */; };
@@ -4065,7 +4001,6 @@
 		E5A8D00A11E33A54004E14CE /* nuiContour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DAC0C3CECAB00902DFE /* nuiContour.cpp */; };
 		E5A8D00B11E33A54004E14CE /* nuiXML.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816D6B0C3CECAB00902DFE /* nuiXML.cpp */; };
 		E5A8D00C11E33A54004E14CE /* nuiComboBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DC90C3CECAB00902DFE /* nuiComboBox.cpp */; };
-		E5A8D00D11E33A54004E14CE /* nglZipFS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DEC0C3CECAB00902DFE /* nglZipFS.cpp */; };
 		E5A8D00E11E33A54004E14CE /* nuiPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DB70C3CECAB00902DFE /* nuiPath.cpp */; };
 		E5A8D00F11E33A54004E14CE /* nuiLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816E020C3CECAB00902DFE /* nuiLabel.cpp */; };
 		E5A8D01011E33A54004E14CE /* nuiRadioButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DD60C3CECAB00902DFE /* nuiRadioButton.cpp */; };
@@ -4126,7 +4061,6 @@
 		E5A8D04E11E33A54004E14CE /* nuiSVGView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DDE0C3CECAB00902DFE /* nuiSVGView.cpp */; };
 		E5A8D04F11E33A54004E14CE /* nglPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816D700C3CECAB00902DFE /* nglPath.cpp */; };
 		E5A8D05011E33A54004E14CE /* nuiEditLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816E000C3CECAB00902DFE /* nuiEditLine.cpp */; };
-		E5A8D05111E33A54004E14CE /* nglIZip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DE70C3CECAB00902DFE /* nglIZip.cpp */; };
 		E5A8D05211E33A54004E14CE /* nuiHoverDummy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DCD0C3CECAB00902DFE /* nuiHoverDummy.cpp */; };
 		E5A8D05311E33A54004E14CE /* nglIFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DE30C3CECAB00902DFE /* nglIFile.cpp */; };
 		E5A8D05511E33A54004E14CE /* nglWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816E300C3CECAB00902DFE /* nglWindow.cpp */; };
@@ -4495,7 +4429,6 @@
 		E5D37EE11413AEBB003CF2A3 /* nuiAttributeEditorPane.h in Headers */ = {isa = PBXBuildFile; fileRef = E5D37EDB1413AEBB003CF2A3 /* nuiAttributeEditorPane.h */; };
 		E5D37EE21413AEBB003CF2A3 /* nuiAttributeEditorPane.h in Headers */ = {isa = PBXBuildFile; fileRef = E5D37EDB1413AEBB003CF2A3 /* nuiAttributeEditorPane.h */; };
 		E5D63F1E1209AB9C009C26A9 /* nuiShape.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CFE0C3CECAB00902DFE /* nuiShape.h */; };
-		E5D63F1F1209AB9C009C26A9 /* nglZipFS.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CAB0C3CECAB00902DFE /* nglZipFS.h */; };
 		E5D63F201209AB9C009C26A9 /* nuiArc.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CB10C3CECAB00902DFE /* nuiArc.h */; };
 		E5D63F241209AB9C009C26A9 /* nuiModalContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CDE0C3CECAB00902DFE /* nuiModalContainer.h */; };
 		E5D63F251209AB9C009C26A9 /* nglIMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C900C3CECAB00902DFE /* nglIMemory.h */; };
@@ -4531,7 +4464,6 @@
 		E5D63F451209AB9C009C26A9 /* nglCPUInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C800C3CECAB00902DFE /* nglCPUInfo.h */; };
 		E5D63F461209AB9C009C26A9 /* nuiFixed.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CC70C3CECAB00902DFE /* nuiFixed.h */; };
 		E5D63F471209AB9C009C26A9 /* nuiRect.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CF40C3CECAB00902DFE /* nuiRect.h */; };
-		E5D63F481209AB9C009C26A9 /* nglIZip.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C950C3CECAB00902DFE /* nglIZip.h */; };
 		E5D63F4A1209AB9C009C26A9 /* nuiCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CB80C3CECAB00902DFE /* nuiCommand.h */; };
 		E5D63F4B1209AB9C009C26A9 /* nglPath.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CA00C3CECAB00902DFE /* nglPath.h */; };
 		E5D63F4C1209AB9C009C26A9 /* nglOFile.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C9D0C3CECAB00902DFE /* nglOFile.h */; };
@@ -4633,16 +4565,12 @@
 		E5D63FB41209AB9C009C26A9 /* nglImageJPEGCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D8B0C3CECAB00902DFE /* nglImageJPEGCodec.h */; };
 		E5D63FB51209AB9C009C26A9 /* nglImageTGACodec.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D910C3CECAB00902DFE /* nglImageTGACodec.h */; };
 		E5D63FB61209AB9C009C26A9 /* nglImagePPMCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D8F0C3CECAB00902DFE /* nglImagePPMCodec.h */; };
-		E5D63FB71209AB9C009C26A9 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DF00C3CECAB00902DFE /* ioapi.h */; };
 		E5D63FB81209AB9C009C26A9 /* nglImagePNGCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D8D0C3CECAB00902DFE /* nglImagePNGCodec.h */; };
 		E5D63FB91209AB9C009C26A9 /* main.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D240C3CECAB00902DFE /* main.h */; };
 		E5D63FBA1209AB9C009C26A9 /* nglApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C7B0C3CECAB00902DFE /* nglApplication.h */; };
-		E5D63FBB1209AB9C009C26A9 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DEE0C3CECAB00902DFE /* crypt.h */; };
 		E5D63FBC1209AB9C009C26A9 /* ngl_default_font.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D7A0C3CECAB00902DFE /* ngl_default_font.h */; };
 		E5D63FBD1209AB9C009C26A9 /* ngl_glext_table.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816E270C3CECAB00902DFE /* ngl_glext_table.h */; };
-		E5D63FBE1209AB9C009C26A9 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DF20C3CECAB00902DFE /* unzip.h */; };
 		E5D63FBF1209AB9C009C26A9 /* AAPrimitives.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DA70C3CECAB00902DFE /* AAPrimitives.h */; };
-		E5D63FC01209AB9C009C26A9 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DF40C3CECAB00902DFE /* zip.h */; };
 		E5D63FC11209AB9C009C26A9 /* nuiFontInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D7F0C3CECAB00902DFE /* nuiFontInstance.h */; };
 		E5D63FC21209AB9C009C26A9 /* nglInputDeviceInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816E2C0C3CECAB00902DFE /* nglInputDeviceInstance.h */; };
 		E5D63FC31209AB9C009C26A9 /* ConvertUTF.h in Headers */ = {isa = PBXBuildFile; fileRef = E51B694E0C4E564D008EF7A3 /* ConvertUTF.h */; };
@@ -4780,9 +4708,6 @@
 		E5D641A31209AB9C009C26A9 /* nglApplication_Cocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = E52EA7DD106D688C008598F5 /* nglApplication_Cocoa.h */; };
 		E5D641A41209AB9C009C26A9 /* nglDragAndDrop_Cocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = E5EF6E9411E7315F000FB337 /* nglDragAndDrop_Cocoa.h */; };
 		E5D641A51209AB9C009C26A9 /* nglWindow_Cocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = E52EA7F1106D6DF5008598F5 /* nglWindow_Cocoa.h */; };
-		E5D6420E1209AB9C009C26A9 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = E5816DF10C3CECAB00902DFE /* unzip.c */; };
-		E5D6420F1209AB9C009C26A9 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = E5816DF30C3CECAB00902DFE /* zip.c */; };
-		E5D642101209AB9C009C26A9 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = E5816DEF0C3CECAB00902DFE /* ioapi.c */; };
 		E5D642111209AB9C009C26A9 /* nuiGladeLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816D5D0C3CECAB00902DFE /* nuiGladeLoader.cpp */; };
 		E5D642121209AB9C009C26A9 /* nglString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DF60C3CECAB00902DFE /* nglString.cpp */; };
 		E5D642131209AB9C009C26A9 /* nglCPUInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816D350C3CECAB00902DFE /* nglCPUInfo.cpp */; };
@@ -4793,7 +4718,6 @@
 		E5D642191209AB9C009C26A9 /* nuiContour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DAC0C3CECAB00902DFE /* nuiContour.cpp */; };
 		E5D6421A1209AB9C009C26A9 /* nuiXML.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816D6B0C3CECAB00902DFE /* nuiXML.cpp */; };
 		E5D6421B1209AB9C009C26A9 /* nuiComboBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DC90C3CECAB00902DFE /* nuiComboBox.cpp */; };
-		E5D6421C1209AB9C009C26A9 /* nglZipFS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DEC0C3CECAB00902DFE /* nglZipFS.cpp */; };
 		E5D6421D1209AB9C009C26A9 /* nuiPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DB70C3CECAB00902DFE /* nuiPath.cpp */; };
 		E5D6421E1209AB9C009C26A9 /* nuiLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816E020C3CECAB00902DFE /* nuiLabel.cpp */; };
 		E5D6421F1209AB9C009C26A9 /* nuiRadioButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DD60C3CECAB00902DFE /* nuiRadioButton.cpp */; };
@@ -4854,7 +4778,6 @@
 		E5D6425D1209AB9C009C26A9 /* nuiSVGView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DDE0C3CECAB00902DFE /* nuiSVGView.cpp */; };
 		E5D6425E1209AB9C009C26A9 /* nglPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816D700C3CECAB00902DFE /* nglPath.cpp */; };
 		E5D6425F1209AB9C009C26A9 /* nuiEditLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816E000C3CECAB00902DFE /* nuiEditLine.cpp */; };
-		E5D642601209AB9C009C26A9 /* nglIZip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DE70C3CECAB00902DFE /* nglIZip.cpp */; };
 		E5D642611209AB9C009C26A9 /* nuiHoverDummy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DCD0C3CECAB00902DFE /* nuiHoverDummy.cpp */; };
 		E5D642621209AB9C009C26A9 /* nglIFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DE30C3CECAB00902DFE /* nglIFile.cpp */; };
 		E5D642641209AB9C009C26A9 /* nglWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816E300C3CECAB00902DFE /* nglWindow.cpp */; };
@@ -6426,7 +6349,6 @@
 		E5F9F7720EACB86D00F8D3A3 /* nuiPanose.h in Headers */ = {isa = PBXBuildFile; fileRef = E5F9F7700EACB86D00F8D3A3 /* nuiPanose.h */; };
 		E5F9F7770EACC8F000F8D3A3 /* nuiPanose.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5F9F7750EACC8F000F8D3A3 /* nuiPanose.cpp */; };
 		E5F9F7790EACC8F100F8D3A3 /* nuiPanose.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5F9F7750EACC8F000F8D3A3 /* nuiPanose.cpp */; };
-		E5FB9A25147D5CEE001A1829 /* nglZipFS.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CAB0C3CECAB00902DFE /* nglZipFS.h */; };
 		E5FB9A29147D5CEE001A1829 /* nglIMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C900C3CECAB00902DFE /* nglIMemory.h */; };
 		E5FB9A2C147D5CEE001A1829 /* nglMimeSource.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C9B0C3CECAB00902DFE /* nglMimeSource.h */; };
 		E5FB9A2F147D5CEE001A1829 /* nglBitmapTools.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C7C0C3CECAB00902DFE /* nglBitmapTools.h */; };
@@ -6441,7 +6363,6 @@
 		E5FB9A45147D5CEE001A1829 /* nuiRefCount.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CF60C3CECAB00902DFE /* nuiRefCount.h */; };
 		E5FB9A46147D5CEE001A1829 /* nglEndian.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C850C3CECAB00902DFE /* nglEndian.h */; };
 		E5FB9A47147D5CEE001A1829 /* nglCPUInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C800C3CECAB00902DFE /* nglCPUInfo.h */; };
-		E5FB9A4A147D5CEE001A1829 /* nglIZip.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C950C3CECAB00902DFE /* nglIZip.h */; };
 		E5FB9A4B147D5CEE001A1829 /* nuiCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CB80C3CECAB00902DFE /* nuiCommand.h */; };
 		E5FB9A4C147D5CEE001A1829 /* nglPath.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816CA00C3CECAB00902DFE /* nglPath.h */; };
 		E5FB9A4D147D5CEE001A1829 /* nglOFile.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816C9D0C3CECAB00902DFE /* nglOFile.h */; };
@@ -6486,11 +6407,7 @@
 		E5FB9AAD147D5CEE001A1829 /* nglImageJPEGCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D8B0C3CECAB00902DFE /* nglImageJPEGCodec.h */; };
 		E5FB9AAE147D5CEE001A1829 /* nglImageTGACodec.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D910C3CECAB00902DFE /* nglImageTGACodec.h */; };
 		E5FB9AAF147D5CEE001A1829 /* nglImagePPMCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D8F0C3CECAB00902DFE /* nglImagePPMCodec.h */; };
-		E5FB9AB0147D5CEE001A1829 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DF00C3CECAB00902DFE /* ioapi.h */; };
 		E5FB9AB1147D5CEE001A1829 /* nglImagePNGCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816D8D0C3CECAB00902DFE /* nglImagePNGCodec.h */; };
-		E5FB9AB4147D5CEE001A1829 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DEE0C3CECAB00902DFE /* crypt.h */; };
-		E5FB9AB7147D5CEE001A1829 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DF20C3CECAB00902DFE /* unzip.h */; };
-		E5FB9AB9147D5CEE001A1829 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816DF40C3CECAB00902DFE /* zip.h */; };
 		E5FB9ABB147D5CEE001A1829 /* nglInputDeviceInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = E5816E2C0C3CECAB00902DFE /* nglInputDeviceInstance.h */; };
 		E5FB9ABC147D5CEE001A1829 /* ConvertUTF.h in Headers */ = {isa = PBXBuildFile; fileRef = E51B694E0C4E564D008EF7A3 /* ConvertUTF.h */; };
 		E5FB9ABD147D5CEE001A1829 /* nuiFastDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E57BC7580C63EA070026DE07 /* nuiFastDelegate.h */; };
@@ -6557,14 +6474,10 @@
 		E5FB9B76147D5CEE001A1829 /* nglImageCGCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = E52419DA11CB9D3C0025CA71 /* nglImageCGCodec.h */; };
 		E5FB9B84147D5CEE001A1829 /* TextureAtlas.h in Headers */ = {isa = PBXBuildFile; fileRef = E5345F2F12F3317500F435D9 /* TextureAtlas.h */; };
 		E5FB9B99147D5CEE001A1829 /* nuiArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = E53B3E741407B070005AD549 /* nuiArchive.h */; };
-		E5FB9B9E147D5CEE001A1829 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = E5816DF10C3CECAB00902DFE /* unzip.c */; };
-		E5FB9B9F147D5CEE001A1829 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = E5816DF30C3CECAB00902DFE /* zip.c */; };
-		E5FB9BA0147D5CEE001A1829 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = E5816DEF0C3CECAB00902DFE /* ioapi.c */; };
 		E5FB9BA2147D5CEE001A1829 /* nglString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DF60C3CECAB00902DFE /* nglString.cpp */; };
 		E5FB9BA3147D5CEE001A1829 /* nglCPUInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816D350C3CECAB00902DFE /* nglCPUInfo.cpp */; };
 		E5FB9BA5147D5CEE001A1829 /* nglBitmapTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816D870C3CECAB00902DFE /* nglBitmapTools.cpp */; };
 		E5FB9BA9147D5CEE001A1829 /* nuiXML.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816D6B0C3CECAB00902DFE /* nuiXML.cpp */; };
-		E5FB9BAB147D5CEE001A1829 /* nglZipFS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DEC0C3CECAB00902DFE /* nglZipFS.cpp */; };
 		E5FB9BB0147D5CEE001A1829 /* nglInputDeviceInstance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816E2B0C3CECAB00902DFE /* nglInputDeviceInstance.cpp */; };
 		E5FB9BB4147D5CEE001A1829 /* nglImagePNGCodec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816D8C0C3CECAB00902DFE /* nglImagePNGCodec.cpp */; };
 		E5FB9BB9147D5CEE001A1829 /* nuiTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816D6A0C3CECAB00902DFE /* nuiTree.cpp */; };
@@ -6587,7 +6500,6 @@
 		E5FB9BE4147D5CEE001A1829 /* nglKeyboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816E2D0C3CECAB00902DFE /* nglKeyboard.cpp */; };
 		E5FB9BE5147D5CEE001A1829 /* nglVideoMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816E2F0C3CECAB00902DFE /* nglVideoMode.cpp */; };
 		E5FB9BE7147D5CEE001A1829 /* nglPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816D700C3CECAB00902DFE /* nglPath.cpp */; };
-		E5FB9BE9147D5CEE001A1829 /* nglIZip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DE70C3CECAB00902DFE /* nglIZip.cpp */; };
 		E5FB9BEB147D5CEE001A1829 /* nglIFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DE30C3CECAB00902DFE /* nglIFile.cpp */; };
 		E5FB9BEC147D5CEE001A1829 /* nglWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816E300C3CECAB00902DFE /* nglWindow.cpp */; };
 		E5FB9BF1147D5CEE001A1829 /* nglIStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5816DE60C3CECAB00902DFE /* nglIStream.cpp */; };
@@ -7835,7 +7747,6 @@
 		E5816C920C3CECAB00902DFE /* nglIOFile.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = nglIOFile.h; path = include/nglIOFile.h; sourceTree = SOURCE_ROOT; };
 		E5816C930C3CECAB00902DFE /* nglIOStream.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = nglIOStream.h; path = include/nglIOStream.h; sourceTree = SOURCE_ROOT; };
 		E5816C940C3CECAB00902DFE /* nglIStream.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = nglIStream.h; path = include/nglIStream.h; sourceTree = SOURCE_ROOT; };
-		E5816C950C3CECAB00902DFE /* nglIZip.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = nglIZip.h; path = include/nglIZip.h; sourceTree = SOURCE_ROOT; };
 		E5816C960C3CECAB00902DFE /* nglKernel.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = nglKernel.h; path = include/nglKernel.h; sourceTree = SOURCE_ROOT; };
 		E5816C970C3CECAB00902DFE /* nglKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = nglKeyboard.h; path = include/nglKeyboard.h; sourceTree = SOURCE_ROOT; };
 		E5816C980C3CECAB00902DFE /* nglLog.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = nglLog.h; path = include/nglLog.h; sourceTree = SOURCE_ROOT; };
@@ -7855,7 +7766,6 @@
 		E5816CA80C3CECAB00902DFE /* nglVector.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = nglVector.h; path = include/nglVector.h; sourceTree = SOURCE_ROOT; };
 		E5816CA90C3CECAB00902DFE /* nglVideoMode.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = nglVideoMode.h; path = include/nglVideoMode.h; sourceTree = SOURCE_ROOT; };
 		E5816CAA0C3CECAB00902DFE /* nglWindow.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = nglWindow.h; path = include/nglWindow.h; sourceTree = SOURCE_ROOT; };
-		E5816CAB0C3CECAB00902DFE /* nglZipFS.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = nglZipFS.h; path = include/nglZipFS.h; sourceTree = SOURCE_ROOT; };
 		E5816CAC0C3CECAB00902DFE /* nui.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = nui.h; path = ../../include/nui.h; sourceTree = "<group>"; };
 		E5816CAD0C3CECAB00902DFE /* nui_all.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = nui_all.h; path = ../../include/nui_all.h; sourceTree = "<group>"; };
 		E5816CAE0C3CECAB00902DFE /* nuiAnimation.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = nuiAnimation.h; path = ../include/nuiAnimation.h; sourceTree = "<group>"; };
@@ -8066,19 +7976,10 @@
 		E5816DE40C3CECAB00902DFE /* nglIMemory.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = nglIMemory.cpp; path = src/Stream/nglIMemory.cpp; sourceTree = SOURCE_ROOT; };
 		E5816DE50C3CECAB00902DFE /* nglIOFile.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = nglIOFile.cpp; path = src/Stream/nglIOFile.cpp; sourceTree = SOURCE_ROOT; };
 		E5816DE60C3CECAB00902DFE /* nglIStream.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = nglIStream.cpp; path = src/Stream/nglIStream.cpp; sourceTree = SOURCE_ROOT; };
-		E5816DE70C3CECAB00902DFE /* nglIZip.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = nglIZip.cpp; path = src/Stream/nglIZip.cpp; sourceTree = SOURCE_ROOT; };
 		E5816DE80C3CECAB00902DFE /* nglOFile.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = nglOFile.cpp; path = src/Stream/nglOFile.cpp; sourceTree = SOURCE_ROOT; };
 		E5816DE90C3CECAB00902DFE /* nglOMemory.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = nglOMemory.cpp; path = src/Stream/nglOMemory.cpp; sourceTree = SOURCE_ROOT; };
 		E5816DEA0C3CECAB00902DFE /* nglOStream.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = nglOStream.cpp; path = src/Stream/nglOStream.cpp; sourceTree = SOURCE_ROOT; };
 		E5816DEB0C3CECAB00902DFE /* nglStream.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = nglStream.cpp; path = src/Stream/nglStream.cpp; sourceTree = SOURCE_ROOT; };
-		E5816DEC0C3CECAB00902DFE /* nglZipFS.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = nglZipFS.cpp; path = src/Stream/nglZipFS.cpp; sourceTree = SOURCE_ROOT; };
-		E5816DEE0C3CECAB00902DFE /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = crypt.h; path = src/Stream/Zip/crypt.h; sourceTree = SOURCE_ROOT; };
-		E5816DEF0C3CECAB00902DFE /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ioapi.c; path = src/Stream/Zip/ioapi.c; sourceTree = SOURCE_ROOT; };
-		E5816DF00C3CECAB00902DFE /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ioapi.h; path = src/Stream/Zip/ioapi.h; sourceTree = SOURCE_ROOT; };
-		E5816DF10C3CECAB00902DFE /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = unzip.c; path = src/Stream/Zip/unzip.c; sourceTree = SOURCE_ROOT; };
-		E5816DF20C3CECAB00902DFE /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = unzip.h; path = src/Stream/Zip/unzip.h; sourceTree = SOURCE_ROOT; };
-		E5816DF30C3CECAB00902DFE /* zip.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = zip.c; path = src/Stream/Zip/zip.c; sourceTree = SOURCE_ROOT; };
-		E5816DF40C3CECAB00902DFE /* zip.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = zip.h; path = src/Stream/Zip/zip.h; sourceTree = SOURCE_ROOT; };
 		E5816DF60C3CECAB00902DFE /* nglString.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = nglString.cpp; path = src/String/nglString.cpp; sourceTree = SOURCE_ROOT; };
 		E5816E000C3CECAB00902DFE /* nuiEditLine.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = nuiEditLine.cpp; path = src/Text/nuiEditLine.cpp; sourceTree = SOURCE_ROOT; };
 		E5816E010C3CECAB00902DFE /* nuiEditText.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = nuiEditText.cpp; path = src/Text/nuiEditText.cpp; sourceTree = SOURCE_ROOT; };
@@ -10374,8 +10275,6 @@
 				E5816C930C3CECAB00902DFE /* nglIOStream.h */,
 				E5816DE60C3CECAB00902DFE /* nglIStream.cpp */,
 				E5816C940C3CECAB00902DFE /* nglIStream.h */,
-				E5816DE70C3CECAB00902DFE /* nglIZip.cpp */,
-				E5816C950C3CECAB00902DFE /* nglIZip.h */,
 				E5816DE80C3CECAB00902DFE /* nglOFile.cpp */,
 				E5816C9D0C3CECAB00902DFE /* nglOFile.h */,
 				E5816DE90C3CECAB00902DFE /* nglOMemory.cpp */,
@@ -10384,27 +10283,9 @@
 				E5816C9F0C3CECAB00902DFE /* nglOStream.h */,
 				E5816DEB0C3CECAB00902DFE /* nglStream.cpp */,
 				E5816CA30C3CECAB00902DFE /* nglStream.h */,
-				E5816DEC0C3CECAB00902DFE /* nglZipFS.cpp */,
-				E5816CAB0C3CECAB00902DFE /* nglZipFS.h */,
-				E5816DED0C3CECAB00902DFE /* Zip */,
 			);
 			name = Stream;
 			path = src/Stream;
-			sourceTree = SOURCE_ROOT;
-		};
-		E5816DED0C3CECAB00902DFE /* Zip */ = {
-			isa = PBXGroup;
-			children = (
-				E5816DEE0C3CECAB00902DFE /* crypt.h */,
-				E5816DEF0C3CECAB00902DFE /* ioapi.c */,
-				E5816DF00C3CECAB00902DFE /* ioapi.h */,
-				E5816DF10C3CECAB00902DFE /* unzip.c */,
-				E5816DF20C3CECAB00902DFE /* unzip.h */,
-				E5816DF30C3CECAB00902DFE /* zip.c */,
-				E5816DF40C3CECAB00902DFE /* zip.h */,
-			);
-			name = Zip;
-			path = src/Stream/Zip;
 			sourceTree = SOURCE_ROOT;
 		};
 		E5816DF50C3CECAB00902DFE /* String */ = {
@@ -11081,7 +10962,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				73F0841C12E9BA0700656E84 /* nuiShape.h in Headers */,
-				73F0841D12E9BA0700656E84 /* nglZipFS.h in Headers */,
 				73F0841E12E9BA0700656E84 /* nuiArc.h in Headers */,
 				73F0842212E9BA0700656E84 /* nuiModalContainer.h in Headers */,
 				73F0842312E9BA0700656E84 /* nglIMemory.h in Headers */,
@@ -11117,7 +10997,6 @@
 				73F0844312E9BA0700656E84 /* nglCPUInfo.h in Headers */,
 				73F0844412E9BA0700656E84 /* nuiFixed.h in Headers */,
 				73F0844512E9BA0700656E84 /* nuiRect.h in Headers */,
-				73F0844612E9BA0700656E84 /* nglIZip.h in Headers */,
 				73F0844812E9BA0700656E84 /* nuiCommand.h in Headers */,
 				73F0844912E9BA0700656E84 /* nglPath.h in Headers */,
 				73F0844A12E9BA0700656E84 /* nglOFile.h in Headers */,
@@ -11218,16 +11097,12 @@
 				73F084AF12E9BA0700656E84 /* nglMachOPrefix.h in Headers */,
 				73F084B012E9BA0700656E84 /* nglImageTGACodec.h in Headers */,
 				73F084B112E9BA0700656E84 /* nglImagePPMCodec.h in Headers */,
-				73F084B212E9BA0700656E84 /* ioapi.h in Headers */,
 				73F084B312E9BA0700656E84 /* nglImagePNGCodec.h in Headers */,
 				73F084B412E9BA0700656E84 /* main.h in Headers */,
 				73F084B512E9BA0700656E84 /* nglApplication.h in Headers */,
-				73F084B612E9BA0700656E84 /* crypt.h in Headers */,
 				73F084B712E9BA0700656E84 /* ngl_default_font.h in Headers */,
 				73F084B812E9BA0700656E84 /* ngl_glext_table.h in Headers */,
-				73F084B912E9BA0700656E84 /* unzip.h in Headers */,
 				73F084BA12E9BA0700656E84 /* AAPrimitives.h in Headers */,
-				73F084BB12E9BA0700656E84 /* zip.h in Headers */,
 				73F084BC12E9BA0700656E84 /* nuiFontInstance.h in Headers */,
 				73F084BD12E9BA0700656E84 /* nglInputDeviceInstance.h in Headers */,
 				73F084BE12E9BA0700656E84 /* ConvertUTF.h in Headers */,
@@ -11865,7 +11740,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E524133011CB860B0025CA71 /* nuiShape.h in Headers */,
-				E524133111CB860B0025CA71 /* nglZipFS.h in Headers */,
 				E524133211CB860B0025CA71 /* nuiArc.h in Headers */,
 				E524133611CB860B0025CA71 /* nuiModalContainer.h in Headers */,
 				E524133711CB860B0025CA71 /* nglIMemory.h in Headers */,
@@ -11901,7 +11775,6 @@
 				E524135711CB860B0025CA71 /* nglCPUInfo.h in Headers */,
 				E524135811CB860B0025CA71 /* nuiFixed.h in Headers */,
 				E524135911CB860B0025CA71 /* nuiRect.h in Headers */,
-				E524135A11CB860B0025CA71 /* nglIZip.h in Headers */,
 				E524135C11CB860B0025CA71 /* nuiCommand.h in Headers */,
 				E524135D11CB860B0025CA71 /* nglPath.h in Headers */,
 				E524135E11CB860B0025CA71 /* nglOFile.h in Headers */,
@@ -12002,16 +11875,12 @@
 				E52413C411CB860B0025CA71 /* nglMachOPrefix.h in Headers */,
 				E52413C811CB860B0025CA71 /* nglImageTGACodec.h in Headers */,
 				E52413C911CB860B0025CA71 /* nglImagePPMCodec.h in Headers */,
-				E52413CA11CB860B0025CA71 /* ioapi.h in Headers */,
 				E52413CB11CB860B0025CA71 /* nglImagePNGCodec.h in Headers */,
 				E52413CC11CB860B0025CA71 /* main.h in Headers */,
 				E52413CD11CB860B0025CA71 /* nglApplication.h in Headers */,
-				E52413CE11CB860B0025CA71 /* crypt.h in Headers */,
 				E52413CF11CB860B0025CA71 /* ngl_default_font.h in Headers */,
 				E52413D011CB860B0025CA71 /* ngl_glext_table.h in Headers */,
-				E52413D211CB860B0025CA71 /* unzip.h in Headers */,
 				E52413D311CB860B0025CA71 /* AAPrimitives.h in Headers */,
-				E52413D411CB860B0025CA71 /* zip.h in Headers */,
 				E52413D511CB860B0025CA71 /* nuiFontInstance.h in Headers */,
 				E52413D611CB860B0025CA71 /* nglInputDeviceInstance.h in Headers */,
 				E52413D711CB860B0025CA71 /* ConvertUTF.h in Headers */,
@@ -12191,7 +12060,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5241C0C11CBCE9E0025CA71 /* nuiShape.h in Headers */,
-				E5241C0D11CBCE9E0025CA71 /* nglZipFS.h in Headers */,
 				E5241C0E11CBCE9E0025CA71 /* nuiArc.h in Headers */,
 				E5241C1211CBCE9E0025CA71 /* nuiModalContainer.h in Headers */,
 				E5241C1311CBCE9E0025CA71 /* nglIMemory.h in Headers */,
@@ -12227,7 +12095,6 @@
 				E5241C3311CBCE9E0025CA71 /* nglCPUInfo.h in Headers */,
 				E5241C3411CBCE9E0025CA71 /* nuiFixed.h in Headers */,
 				E5241C3511CBCE9E0025CA71 /* nuiRect.h in Headers */,
-				E5241C3611CBCE9E0025CA71 /* nglIZip.h in Headers */,
 				E5241C3811CBCE9E0025CA71 /* nuiCommand.h in Headers */,
 				E5241C3911CBCE9E0025CA71 /* nglPath.h in Headers */,
 				E5241C3A11CBCE9E0025CA71 /* nglOFile.h in Headers */,
@@ -12328,16 +12195,12 @@
 				E5241C9F11CBCE9E0025CA71 /* nglMachOPrefix.h in Headers */,
 				E5241CA011CBCE9E0025CA71 /* nglImageTGACodec.h in Headers */,
 				E5241CA111CBCE9E0025CA71 /* nglImagePPMCodec.h in Headers */,
-				E5241CA211CBCE9E0025CA71 /* ioapi.h in Headers */,
 				E5241CA311CBCE9E0025CA71 /* nglImagePNGCodec.h in Headers */,
 				E5241CA411CBCE9E0025CA71 /* main.h in Headers */,
 				E5241CA511CBCE9E0025CA71 /* nglApplication.h in Headers */,
-				E5241CA611CBCE9E0025CA71 /* crypt.h in Headers */,
 				E5241CA711CBCE9E0025CA71 /* ngl_default_font.h in Headers */,
 				E5241CA811CBCE9E0025CA71 /* ngl_glext_table.h in Headers */,
-				E5241CA911CBCE9E0025CA71 /* unzip.h in Headers */,
 				E5241CAA11CBCE9E0025CA71 /* AAPrimitives.h in Headers */,
-				E5241CAB11CBCE9E0025CA71 /* zip.h in Headers */,
 				E5241CAC11CBCE9E0025CA71 /* nuiFontInstance.h in Headers */,
 				E5241CAD11CBCE9E0025CA71 /* nglInputDeviceInstance.h in Headers */,
 				E5241CAE11CBCE9E0025CA71 /* ConvertUTF.h in Headers */,
@@ -12517,7 +12380,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5429F9D0C3F0A5900225219 /* nuiShape.h in Headers */,
-				E5429F9E0C3F0A5900225219 /* nglZipFS.h in Headers */,
 				E5429F9F0C3F0A5900225219 /* nuiArc.h in Headers */,
 				E5429FA30C3F0A5900225219 /* nuiModalContainer.h in Headers */,
 				E5429FA40C3F0A5900225219 /* nglIMemory.h in Headers */,
@@ -12553,7 +12415,6 @@
 				E5429FC90C3F0A5900225219 /* nglCPUInfo.h in Headers */,
 				E5429FCA0C3F0A5900225219 /* nuiFixed.h in Headers */,
 				E5429FCB0C3F0A5900225219 /* nuiRect.h in Headers */,
-				E5429FCC0C3F0A5900225219 /* nglIZip.h in Headers */,
 				E5429FCE0C3F0A5900225219 /* nuiCommand.h in Headers */,
 				E5429FD00C3F0A5900225219 /* nglPath.h in Headers */,
 				E5429FD20C3F0A5900225219 /* nglOFile.h in Headers */,
@@ -12657,16 +12518,12 @@
 				E542A04B0C3F0A5900225219 /* nglImageJPEGCodec.h in Headers */,
 				E542A04C0C3F0A5900225219 /* nglImageTGACodec.h in Headers */,
 				E542A04D0C3F0A5900225219 /* nglImagePPMCodec.h in Headers */,
-				E542A04E0C3F0A5900225219 /* ioapi.h in Headers */,
 				E542A04F0C3F0A5900225219 /* nglImagePNGCodec.h in Headers */,
 				E542A0500C3F0A5900225219 /* main.h in Headers */,
 				E542A0510C3F0A5900225219 /* nglApplication.h in Headers */,
-				E542A0530C3F0A5900225219 /* crypt.h in Headers */,
 				E542A0540C3F0A5900225219 /* ngl_default_font.h in Headers */,
 				E542A0550C3F0A5900225219 /* ngl_glext_table.h in Headers */,
-				E542A0580C3F0A5900225219 /* unzip.h in Headers */,
 				E542A0590C3F0A5900225219 /* AAPrimitives.h in Headers */,
-				E542A05A0C3F0A5900225219 /* zip.h in Headers */,
 				E542A05B0C3F0A5900225219 /* nuiFontInstance.h in Headers */,
 				E542A05C0C3F0A5900225219 /* nglInputDeviceInstance.h in Headers */,
 				E51B69520C4E564D008EF7A3 /* ConvertUTF.h in Headers */,
@@ -12847,7 +12704,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E58176540C3D110A00902DFE /* nuiShape.h in Headers */,
-				E58176550C3D110A00902DFE /* nglZipFS.h in Headers */,
 				E58176560C3D110A00902DFE /* nuiArc.h in Headers */,
 				E581765A0C3D110A00902DFE /* nuiModalContainer.h in Headers */,
 				E581765B0C3D110A00902DFE /* nglIMemory.h in Headers */,
@@ -12883,7 +12739,6 @@
 				E58176800C3D110A00902DFE /* nglCPUInfo.h in Headers */,
 				E58176810C3D110A00902DFE /* nuiFixed.h in Headers */,
 				E58176820C3D110A00902DFE /* nuiRect.h in Headers */,
-				E58176830C3D110A00902DFE /* nglIZip.h in Headers */,
 				E58176850C3D110A00902DFE /* nuiCommand.h in Headers */,
 				E58176870C3D110A00902DFE /* nglPath.h in Headers */,
 				E58176890C3D110A00902DFE /* nglOFile.h in Headers */,
@@ -12985,16 +12840,12 @@
 				E58177C20C3D112C00902DFE /* nglImageJPEGCodec.h in Headers */,
 				E58177C30C3D112C00902DFE /* nglImageTGACodec.h in Headers */,
 				E58177C40C3D112C00902DFE /* nglImagePPMCodec.h in Headers */,
-				E58177C50C3D112C00902DFE /* ioapi.h in Headers */,
 				E58177C60C3D112C00902DFE /* nglImagePNGCodec.h in Headers */,
 				E58177C70C3D112C00902DFE /* main.h in Headers */,
 				E58177C80C3D112C00902DFE /* nglApplication.h in Headers */,
-				E58177CA0C3D112C00902DFE /* crypt.h in Headers */,
 				E58177CB0C3D112C00902DFE /* ngl_default_font.h in Headers */,
 				E58177CC0C3D112C00902DFE /* ngl_glext_table.h in Headers */,
-				E58177CF0C3D112C00902DFE /* unzip.h in Headers */,
 				E58177D00C3D112C00902DFE /* AAPrimitives.h in Headers */,
-				E58177D10C3D112C00902DFE /* zip.h in Headers */,
 				E58177D20C3D112C00902DFE /* nuiFontInstance.h in Headers */,
 				E58177D30C3D112C00902DFE /* nglInputDeviceInstance.h in Headers */,
 				E51B69500C4E564D008EF7A3 /* ConvertUTF.h in Headers */,
@@ -13179,7 +13030,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5A8CD1111E33A54004E14CE /* nuiShape.h in Headers */,
-				E5A8CD1211E33A54004E14CE /* nglZipFS.h in Headers */,
 				E5A8CD1311E33A54004E14CE /* nuiArc.h in Headers */,
 				E5A8CD1711E33A54004E14CE /* nuiModalContainer.h in Headers */,
 				E5A8CD1811E33A54004E14CE /* nglIMemory.h in Headers */,
@@ -13215,7 +13065,6 @@
 				E5A8CD3811E33A54004E14CE /* nglCPUInfo.h in Headers */,
 				E5A8CD3911E33A54004E14CE /* nuiFixed.h in Headers */,
 				E5A8CD3A11E33A54004E14CE /* nuiRect.h in Headers */,
-				E5A8CD3B11E33A54004E14CE /* nglIZip.h in Headers */,
 				E5A8CD3D11E33A54004E14CE /* nuiCommand.h in Headers */,
 				E5A8CD3E11E33A54004E14CE /* nglPath.h in Headers */,
 				E5A8CD3F11E33A54004E14CE /* nglOFile.h in Headers */,
@@ -13317,16 +13166,12 @@
 				E5A8CDA811E33A54004E14CE /* nglImageJPEGCodec.h in Headers */,
 				E5A8CDA911E33A54004E14CE /* nglImageTGACodec.h in Headers */,
 				E5A8CDAA11E33A54004E14CE /* nglImagePPMCodec.h in Headers */,
-				E5A8CDAB11E33A54004E14CE /* ioapi.h in Headers */,
 				E5A8CDAC11E33A54004E14CE /* nglImagePNGCodec.h in Headers */,
 				E5A8CDAD11E33A54004E14CE /* main.h in Headers */,
 				E5A8CDAE11E33A54004E14CE /* nglApplication.h in Headers */,
-				E5A8CDAF11E33A54004E14CE /* crypt.h in Headers */,
 				E5A8CDB011E33A54004E14CE /* ngl_default_font.h in Headers */,
 				E5A8CDB111E33A54004E14CE /* ngl_glext_table.h in Headers */,
-				E5A8CDB311E33A54004E14CE /* unzip.h in Headers */,
 				E5A8CDB411E33A54004E14CE /* AAPrimitives.h in Headers */,
-				E5A8CDB511E33A54004E14CE /* zip.h in Headers */,
 				E5A8CDB611E33A54004E14CE /* nuiFontInstance.h in Headers */,
 				E5A8CDB711E33A54004E14CE /* nglInputDeviceInstance.h in Headers */,
 				E5A8CDB811E33A54004E14CE /* ConvertUTF.h in Headers */,
@@ -13511,7 +13356,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5D63F1E1209AB9C009C26A9 /* nuiShape.h in Headers */,
-				E5D63F1F1209AB9C009C26A9 /* nglZipFS.h in Headers */,
 				E5D63F201209AB9C009C26A9 /* nuiArc.h in Headers */,
 				E5D63F241209AB9C009C26A9 /* nuiModalContainer.h in Headers */,
 				E5D63F251209AB9C009C26A9 /* nglIMemory.h in Headers */,
@@ -13547,7 +13391,6 @@
 				E5D63F451209AB9C009C26A9 /* nglCPUInfo.h in Headers */,
 				E5D63F461209AB9C009C26A9 /* nuiFixed.h in Headers */,
 				E5D63F471209AB9C009C26A9 /* nuiRect.h in Headers */,
-				E5D63F481209AB9C009C26A9 /* nglIZip.h in Headers */,
 				E5D63F4A1209AB9C009C26A9 /* nuiCommand.h in Headers */,
 				E5D63F4B1209AB9C009C26A9 /* nglPath.h in Headers */,
 				E5D63F4C1209AB9C009C26A9 /* nglOFile.h in Headers */,
@@ -13649,16 +13492,12 @@
 				E5D63FB41209AB9C009C26A9 /* nglImageJPEGCodec.h in Headers */,
 				E5D63FB51209AB9C009C26A9 /* nglImageTGACodec.h in Headers */,
 				E5D63FB61209AB9C009C26A9 /* nglImagePPMCodec.h in Headers */,
-				E5D63FB71209AB9C009C26A9 /* ioapi.h in Headers */,
 				E5D63FB81209AB9C009C26A9 /* nglImagePNGCodec.h in Headers */,
 				E5D63FB91209AB9C009C26A9 /* main.h in Headers */,
 				E5D63FBA1209AB9C009C26A9 /* nglApplication.h in Headers */,
-				E5D63FBB1209AB9C009C26A9 /* crypt.h in Headers */,
 				E5D63FBC1209AB9C009C26A9 /* ngl_default_font.h in Headers */,
 				E5D63FBD1209AB9C009C26A9 /* ngl_glext_table.h in Headers */,
-				E5D63FBE1209AB9C009C26A9 /* unzip.h in Headers */,
 				E5D63FBF1209AB9C009C26A9 /* AAPrimitives.h in Headers */,
-				E5D63FC01209AB9C009C26A9 /* zip.h in Headers */,
 				E5D63FC11209AB9C009C26A9 /* nuiFontInstance.h in Headers */,
 				E5D63FC21209AB9C009C26A9 /* nglInputDeviceInstance.h in Headers */,
 				E5D63FC31209AB9C009C26A9 /* ConvertUTF.h in Headers */,
@@ -14745,7 +14584,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5FB9A25147D5CEE001A1829 /* nglZipFS.h in Headers */,
 				E5FB9A29147D5CEE001A1829 /* nglIMemory.h in Headers */,
 				E5FB9A2C147D5CEE001A1829 /* nglMimeSource.h in Headers */,
 				E5FB9A2F147D5CEE001A1829 /* nglBitmapTools.h in Headers */,
@@ -14760,7 +14598,6 @@
 				E5FB9A45147D5CEE001A1829 /* nuiRefCount.h in Headers */,
 				E5FB9A46147D5CEE001A1829 /* nglEndian.h in Headers */,
 				E5FB9A47147D5CEE001A1829 /* nglCPUInfo.h in Headers */,
-				E5FB9A4A147D5CEE001A1829 /* nglIZip.h in Headers */,
 				E5FB9A4B147D5CEE001A1829 /* nuiCommand.h in Headers */,
 				E5FB9A4C147D5CEE001A1829 /* nglPath.h in Headers */,
 				E5FB9A4D147D5CEE001A1829 /* nglOFile.h in Headers */,
@@ -14805,11 +14642,7 @@
 				E5FB9AAD147D5CEE001A1829 /* nglImageJPEGCodec.h in Headers */,
 				E5FB9AAE147D5CEE001A1829 /* nglImageTGACodec.h in Headers */,
 				E5FB9AAF147D5CEE001A1829 /* nglImagePPMCodec.h in Headers */,
-				E5FB9AB0147D5CEE001A1829 /* ioapi.h in Headers */,
 				E5FB9AB1147D5CEE001A1829 /* nglImagePNGCodec.h in Headers */,
-				E5FB9AB4147D5CEE001A1829 /* crypt.h in Headers */,
-				E5FB9AB7147D5CEE001A1829 /* unzip.h in Headers */,
-				E5FB9AB9147D5CEE001A1829 /* zip.h in Headers */,
 				E5FB9ABB147D5CEE001A1829 /* nglInputDeviceInstance.h in Headers */,
 				E5FB9ABC147D5CEE001A1829 /* ConvertUTF.h in Headers */,
 				E5FB9ABD147D5CEE001A1829 /* nuiFastDelegate.h in Headers */,
@@ -15120,9 +14953,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73F0859612E9BA0700656E84 /* unzip.c in Sources */,
-				73F0859712E9BA0700656E84 /* zip.c in Sources */,
-				73F0859812E9BA0700656E84 /* ioapi.c in Sources */,
 				73F0859912E9BA0700656E84 /* nuiGladeLoader.cpp in Sources */,
 				73F0859A12E9BA0700656E84 /* nglString.cpp in Sources */,
 				73F0859B12E9BA0700656E84 /* nglCPUInfo.cpp in Sources */,
@@ -15133,7 +14963,6 @@
 				73F085A112E9BA0700656E84 /* nuiContour.cpp in Sources */,
 				73F085A212E9BA0700656E84 /* nuiXML.cpp in Sources */,
 				73F085A312E9BA0700656E84 /* nuiComboBox.cpp in Sources */,
-				73F085A412E9BA0700656E84 /* nglZipFS.cpp in Sources */,
 				73F085A512E9BA0700656E84 /* nuiPath.cpp in Sources */,
 				73F085A612E9BA0700656E84 /* nuiLabel.cpp in Sources */,
 				73F085A712E9BA0700656E84 /* nuiRadioButton.cpp in Sources */,
@@ -15194,7 +15023,6 @@
 				73F085E312E9BA0700656E84 /* nuiSVGView.cpp in Sources */,
 				73F085E412E9BA0700656E84 /* nglPath.cpp in Sources */,
 				73F085E512E9BA0700656E84 /* nuiEditLine.cpp in Sources */,
-				73F085E612E9BA0700656E84 /* nglIZip.cpp in Sources */,
 				73F085E712E9BA0700656E84 /* nuiHoverDummy.cpp in Sources */,
 				73F085E812E9BA0700656E84 /* nglIFile.cpp in Sources */,
 				73F085E912E9BA0700656E84 /* nglWindow.cpp in Sources */,
@@ -15688,9 +15516,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E524161E11CB860B0025CA71 /* unzip.c in Sources */,
-				E524161F11CB860B0025CA71 /* zip.c in Sources */,
-				E524162011CB860B0025CA71 /* ioapi.c in Sources */,
 				E524162111CB860B0025CA71 /* nuiGladeLoader.cpp in Sources */,
 				E524162211CB860B0025CA71 /* nglString.cpp in Sources */,
 				E524162311CB860B0025CA71 /* nglCPUInfo.cpp in Sources */,
@@ -15701,7 +15526,6 @@
 				E524162911CB860B0025CA71 /* nuiContour.cpp in Sources */,
 				E524162A11CB860B0025CA71 /* nuiXML.cpp in Sources */,
 				E524162B11CB860B0025CA71 /* nuiComboBox.cpp in Sources */,
-				E524162C11CB860B0025CA71 /* nglZipFS.cpp in Sources */,
 				E524162D11CB860B0025CA71 /* nuiPath.cpp in Sources */,
 				E524162E11CB860B0025CA71 /* nuiLabel.cpp in Sources */,
 				E524162F11CB860B0025CA71 /* nuiRadioButton.cpp in Sources */,
@@ -15762,7 +15586,6 @@
 				E524166D11CB860B0025CA71 /* nuiSVGView.cpp in Sources */,
 				E524166E11CB860B0025CA71 /* nglPath.cpp in Sources */,
 				E524166F11CB860B0025CA71 /* nuiEditLine.cpp in Sources */,
-				E524167011CB860B0025CA71 /* nglIZip.cpp in Sources */,
 				E524167111CB860B0025CA71 /* nuiHoverDummy.cpp in Sources */,
 				E524167211CB860B0025CA71 /* nglIFile.cpp in Sources */,
 				E524167411CB860B0025CA71 /* nglWindow.cpp in Sources */,
@@ -15972,9 +15795,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5241F0711CBCE9E0025CA71 /* unzip.c in Sources */,
-				E5241F0811CBCE9E0025CA71 /* zip.c in Sources */,
-				E5241F0911CBCE9E0025CA71 /* ioapi.c in Sources */,
 				E5241F0A11CBCE9E0025CA71 /* nuiGladeLoader.cpp in Sources */,
 				E5241F0B11CBCE9E0025CA71 /* nglString.cpp in Sources */,
 				E5241F0C11CBCE9E0025CA71 /* nglCPUInfo.cpp in Sources */,
@@ -15985,7 +15805,6 @@
 				E5241F1211CBCE9E0025CA71 /* nuiContour.cpp in Sources */,
 				E5241F1311CBCE9E0025CA71 /* nuiXML.cpp in Sources */,
 				E5241F1411CBCE9E0025CA71 /* nuiComboBox.cpp in Sources */,
-				E5241F1511CBCE9E0025CA71 /* nglZipFS.cpp in Sources */,
 				E5241F1611CBCE9E0025CA71 /* nuiPath.cpp in Sources */,
 				E5241F1711CBCE9E0025CA71 /* nuiLabel.cpp in Sources */,
 				E5241F1811CBCE9E0025CA71 /* nuiRadioButton.cpp in Sources */,
@@ -16046,7 +15865,6 @@
 				E5241F5411CBCE9E0025CA71 /* nuiSVGView.cpp in Sources */,
 				E5241F5511CBCE9E0025CA71 /* nglPath.cpp in Sources */,
 				E5241F5611CBCE9E0025CA71 /* nuiEditLine.cpp in Sources */,
-				E5241F5711CBCE9E0025CA71 /* nglIZip.cpp in Sources */,
 				E5241F5811CBCE9E0025CA71 /* nuiHoverDummy.cpp in Sources */,
 				E5241F5911CBCE9E0025CA71 /* nglIFile.cpp in Sources */,
 				E5241F5A11CBCE9E0025CA71 /* nglWindow.cpp in Sources */,
@@ -16256,9 +16074,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E542A0F00C3F0A5900225219 /* unzip.c in Sources */,
-				E542A0F10C3F0A5900225219 /* zip.c in Sources */,
-				E542A0F20C3F0A5900225219 /* ioapi.c in Sources */,
 				E542A0F30C3F0A5900225219 /* nuiGladeLoader.cpp in Sources */,
 				E542A0F40C3F0A5900225219 /* nglString.cpp in Sources */,
 				E542A0F70C3F0A5900225219 /* nglWindow_Carbon.cpp in Sources */,
@@ -16271,7 +16086,6 @@
 				E542A1000C3F0A5900225219 /* nuiContour.cpp in Sources */,
 				E542A1010C3F0A5900225219 /* nuiXML.cpp in Sources */,
 				E542A1020C3F0A5900225219 /* nuiComboBox.cpp in Sources */,
-				E542A1030C3F0A5900225219 /* nglZipFS.cpp in Sources */,
 				E542A1040C3F0A5900225219 /* nuiPath.cpp in Sources */,
 				E542A1050C3F0A5900225219 /* nuiLabel.cpp in Sources */,
 				E542A1060C3F0A5900225219 /* nuiRadioButton.cpp in Sources */,
@@ -16339,7 +16153,6 @@
 				E542A1520C3F0A5900225219 /* nuiSVGView.cpp in Sources */,
 				E542A1530C3F0A5900225219 /* nglPath.cpp in Sources */,
 				E542A1540C3F0A5900225219 /* nuiEditLine.cpp in Sources */,
-				E542A1550C3F0A5900225219 /* nglIZip.cpp in Sources */,
 				E542A1560C3F0A5900225219 /* nuiHoverDummy.cpp in Sources */,
 				E542A1570C3F0A5900225219 /* nglIFile.cpp in Sources */,
 				E542A1590C3F0A5900225219 /* nglWindow.cpp in Sources */,
@@ -16547,9 +16360,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E58177000C3D112C00902DFE /* unzip.c in Sources */,
-				E58177010C3D112C00902DFE /* zip.c in Sources */,
-				E58177020C3D112C00902DFE /* ioapi.c in Sources */,
 				E58177030C3D112C00902DFE /* nuiGladeLoader.cpp in Sources */,
 				E58177040C3D112C00902DFE /* nglString.cpp in Sources */,
 				E58177080C3D112C00902DFE /* nglCPUInfo.cpp in Sources */,
@@ -16560,7 +16370,6 @@
 				E58177100C3D112C00902DFE /* nuiContour.cpp in Sources */,
 				E58177110C3D112C00902DFE /* nuiXML.cpp in Sources */,
 				E58177120C3D112C00902DFE /* nuiComboBox.cpp in Sources */,
-				E58177130C3D112C00902DFE /* nglZipFS.cpp in Sources */,
 				E58177140C3D112C00902DFE /* nuiPath.cpp in Sources */,
 				E58177150C3D112C00902DFE /* nuiLabel.cpp in Sources */,
 				E58177160C3D112C00902DFE /* nuiRadioButton.cpp in Sources */,
@@ -16621,7 +16430,6 @@
 				E58177650C3D112C00902DFE /* nuiSVGView.cpp in Sources */,
 				E58177660C3D112C00902DFE /* nglPath.cpp in Sources */,
 				E58177670C3D112C00902DFE /* nuiEditLine.cpp in Sources */,
-				E58177680C3D112C00902DFE /* nglIZip.cpp in Sources */,
 				E58177690C3D112C00902DFE /* nuiHoverDummy.cpp in Sources */,
 				E581776A0C3D112C00902DFE /* nglIFile.cpp in Sources */,
 				E581776C0C3D112C00902DFE /* nglWindow.cpp in Sources */,
@@ -16838,9 +16646,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5A8CFFF11E33A54004E14CE /* unzip.c in Sources */,
-				E5A8D00011E33A54004E14CE /* zip.c in Sources */,
-				E5A8D00111E33A54004E14CE /* ioapi.c in Sources */,
 				E5A8D00211E33A54004E14CE /* nuiGladeLoader.cpp in Sources */,
 				E5A8D00311E33A54004E14CE /* nglString.cpp in Sources */,
 				E5A8D00411E33A54004E14CE /* nglCPUInfo.cpp in Sources */,
@@ -16851,7 +16656,6 @@
 				E5A8D00A11E33A54004E14CE /* nuiContour.cpp in Sources */,
 				E5A8D00B11E33A54004E14CE /* nuiXML.cpp in Sources */,
 				E5A8D00C11E33A54004E14CE /* nuiComboBox.cpp in Sources */,
-				E5A8D00D11E33A54004E14CE /* nglZipFS.cpp in Sources */,
 				E5A8D00E11E33A54004E14CE /* nuiPath.cpp in Sources */,
 				E5A8D00F11E33A54004E14CE /* nuiLabel.cpp in Sources */,
 				E5A8D01011E33A54004E14CE /* nuiRadioButton.cpp in Sources */,
@@ -16912,7 +16716,6 @@
 				E5A8D04E11E33A54004E14CE /* nuiSVGView.cpp in Sources */,
 				E5A8D04F11E33A54004E14CE /* nglPath.cpp in Sources */,
 				E5A8D05011E33A54004E14CE /* nuiEditLine.cpp in Sources */,
-				E5A8D05111E33A54004E14CE /* nglIZip.cpp in Sources */,
 				E5A8D05211E33A54004E14CE /* nuiHoverDummy.cpp in Sources */,
 				E5A8D05311E33A54004E14CE /* nglIFile.cpp in Sources */,
 				E5A8D05511E33A54004E14CE /* nglWindow.cpp in Sources */,
@@ -17131,9 +16934,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5D6420E1209AB9C009C26A9 /* unzip.c in Sources */,
-				E5D6420F1209AB9C009C26A9 /* zip.c in Sources */,
-				E5D642101209AB9C009C26A9 /* ioapi.c in Sources */,
 				E5D642111209AB9C009C26A9 /* nuiGladeLoader.cpp in Sources */,
 				E5D642121209AB9C009C26A9 /* nglString.cpp in Sources */,
 				E5D642131209AB9C009C26A9 /* nglCPUInfo.cpp in Sources */,
@@ -17144,7 +16944,6 @@
 				E5D642191209AB9C009C26A9 /* nuiContour.cpp in Sources */,
 				E5D6421A1209AB9C009C26A9 /* nuiXML.cpp in Sources */,
 				E5D6421B1209AB9C009C26A9 /* nuiComboBox.cpp in Sources */,
-				E5D6421C1209AB9C009C26A9 /* nglZipFS.cpp in Sources */,
 				E5D6421D1209AB9C009C26A9 /* nuiPath.cpp in Sources */,
 				E5D6421E1209AB9C009C26A9 /* nuiLabel.cpp in Sources */,
 				E5D6421F1209AB9C009C26A9 /* nuiRadioButton.cpp in Sources */,
@@ -17205,7 +17004,6 @@
 				E5D6425D1209AB9C009C26A9 /* nuiSVGView.cpp in Sources */,
 				E5D6425E1209AB9C009C26A9 /* nglPath.cpp in Sources */,
 				E5D6425F1209AB9C009C26A9 /* nuiEditLine.cpp in Sources */,
-				E5D642601209AB9C009C26A9 /* nglIZip.cpp in Sources */,
 				E5D642611209AB9C009C26A9 /* nuiHoverDummy.cpp in Sources */,
 				E5D642621209AB9C009C26A9 /* nglIFile.cpp in Sources */,
 				E5D642641209AB9C009C26A9 /* nglWindow.cpp in Sources */,
@@ -17981,14 +17779,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5FB9B9E147D5CEE001A1829 /* unzip.c in Sources */,
-				E5FB9B9F147D5CEE001A1829 /* zip.c in Sources */,
-				E5FB9BA0147D5CEE001A1829 /* ioapi.c in Sources */,
 				E5FB9BA2147D5CEE001A1829 /* nglString.cpp in Sources */,
 				E5FB9BA3147D5CEE001A1829 /* nglCPUInfo.cpp in Sources */,
 				E5FB9BA5147D5CEE001A1829 /* nglBitmapTools.cpp in Sources */,
 				E5FB9BA9147D5CEE001A1829 /* nuiXML.cpp in Sources */,
-				E5FB9BAB147D5CEE001A1829 /* nglZipFS.cpp in Sources */,
 				E5FB9BB0147D5CEE001A1829 /* nglInputDeviceInstance.cpp in Sources */,
 				E5FB9BB4147D5CEE001A1829 /* nglImagePNGCodec.cpp in Sources */,
 				E5FB9BB9147D5CEE001A1829 /* nuiTree.cpp in Sources */,
@@ -18011,7 +17805,6 @@
 				E5FB9BE4147D5CEE001A1829 /* nglKeyboard.cpp in Sources */,
 				E5FB9BE5147D5CEE001A1829 /* nglVideoMode.cpp in Sources */,
 				E5FB9BE7147D5CEE001A1829 /* nglPath.cpp in Sources */,
-				E5FB9BE9147D5CEE001A1829 /* nglIZip.cpp in Sources */,
 				E5FB9BEB147D5CEE001A1829 /* nglIFile.cpp in Sources */,
 				E5FB9BEC147D5CEE001A1829 /* nglWindow.cpp in Sources */,
 				E5FB9BF1147D5CEE001A1829 /* nglIStream.cpp in Sources */,

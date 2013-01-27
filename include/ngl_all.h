@@ -133,7 +133,7 @@ Lookup precompiled headers in the VC doc to learn how to use them.
 #include "nglIOFile.h"
 #include "nglIOStream.h"
 #include "nglIStream.h"
-#include "nglIZip.h"
+//#include "nglIZip.h"
 #include "nglImage.h"
 #include "nglImageCodec.h"
 
@@ -151,7 +151,7 @@ Lookup precompiled headers in the VC doc to learn how to use them.
 #include "nglString.h"
 #include "nglTimer.h"
 #include "nglVector.h"
-#include "nglZipFS.h"
+//#include "nglZipFS.h"
 
 #include "nglMath.h"
 
