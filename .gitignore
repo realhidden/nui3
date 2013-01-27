@@ -6,3 +6,4 @@ Products/
 xcuserdata
 xcschememanagement.plist
 *.xcuserstate
+nui3.xcodeproj/xcuserdata/*.xcuserdatad/
