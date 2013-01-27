@@ -2,4 +2,8 @@ Products/
 .DS_Store
 *.xcworkspacedata
 *.xcuserstate
-tutorials/AllTutorials.xcodeproj/xcuserdata/
+*.xcscheme
+xcuserdata
+xcschememanagement.plist
+
+*.xcuserstate
