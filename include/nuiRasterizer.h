@@ -180,7 +180,7 @@ private:
     
     uint32* pBuffer = mpBuffer + (y * mWidth + x);
 
-    incr.DrawHLine<PixelBlender>(pBuffer, v0, width);
+    incr.template DrawHLine<PixelBlender>(pBuffer, v0, width);
   }
   
 public:
